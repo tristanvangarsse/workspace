@@ -1,0 +1,110 @@
+.landing-page-desktop {
+  max-width: 1000px;
+  padding: clamp(110px, calc(40vh - 250px), 250px) 0 0 0;
+  font-weight: var(--fw-light);
+  display: inline-block;
+  /* Force GPU acceleration */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  user-select: none; /* Standard syntax */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  visibility: hidden;
+  margin-bottom: -240px;
+}
+
+.landing-page-desktop.words-en,
+.landing-page-desktop.words-nl {
+  font-size: 3.1rem;
+  color: var(--clr-accent);
+  text-align: center;
+  letter-spacing: -1.5px;
+  line-height: 1em;
+}
+
+.landing-page-mobile {
+  z-index: 50;
+  max-width: 1000px;
+  margin-bottom: -100px;
+  padding: clamp(110px, calc(40vh - 250px), 250px) 20px 0 20px;
+  user-select: none; /* Standard syntax */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  font-size: 2rem;
+  font-weight: 600;
+  background: -webkit-linear-gradient(var(--clr-accent), #f6e9eb6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  letter-spacing: -1.5px;
+  line-height: 1em;
+  display: none;
+}
+
+.highlight {
+/*   color: green; */
+}
+
+.landing-page em {
+  color: var(--clr-accent);
+  font-weight: var(--fw-light);
+}
+
+.landing-page-title {
+  margin-top: -50px;
+  padding-top: 50px;
+  font-weight: var(--fw-regular);
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align: center;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .landing-page-desktop {
+  margin-bottom: -100px;
+  }
+
+  .landing-page-desktop.words-en,
+  .landing-page-desktop.words-nl {
+    font-size: 7vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .landing-page-title {
+    font-size: var(--fs-base);
+  }
+
+}
+
+/* Targets laptop screens with a short height */
+@media only screen and (max-height: 700px) and (min-width: 1100px) {
+
+  .landing-page-desktop.words-en {
+    font-size: 2.6rem !important;
+  }
+  
+  .landing-page-desktop.words-nl {
+    font-size: 2.6rem !important;
+  }
+
+}
+
+/* Targets touch-enabled devices with small screens */
+@media only screen and (max-width: 768px) and (pointer: coarse) {
+
+  .landing-page-desktop.words-en,
+  .landing-page-desktop.words-nl {
+    display: none;
+  }
+
+  .landing-page-mobile {
+    display: block;
+  }
+
+}

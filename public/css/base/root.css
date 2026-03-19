@@ -1,0 +1,68 @@
+:root {
+  --clr-black: hsl(0, 0%, 0%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  --clr-mono-5: hsl(0, 0%, 5%);
+  --clr-mono-8: hsl(0, 0%, 8%);
+  --clr-mono-30: hsl(0, 0%, 30%);
+  --clr-mono-46: hsl(0, 0%, 46%);
+  --clr-mono-50: hsl(0, 0%, 50%);
+  --clr-mono-60: hsl(0, 0%, 60%);
+  --clr-mono-80: hsl(0, 0%, 80%);
+  --clr-mono-90: hsl(0, 0%, 90%);
+  --clr-mono-92: hsl(0, 0%, 92%);
+  --clr-mono-95: hsl(0, 0%, 95%);
+
+  --clr-accent: hsl(355, 68%, 60%);/* hex: #de545f */
+  --clr-accent-80: hsl(355, 80%, 80%);
+
+  --clr-green: hsl(112, 100%, 41%);
+  --clr-red: hsl(0, 83%, 55%);
+
+  --clr-transparent: hsla(0, 0, 0, 0);
+
+  --clr-placeholder: var(--clr-mono-90);
+
+  --clr-bg-popdown-menu: 248;
+
+  --ff-primary: "Inter", sans-serif;
+
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-primary);
+
+  --fw-thin: 90;
+  --fw-extra-light: 180;
+  --fw-light: 270;
+  --fw-book: 300;
+  --fw-regular: 360;
+  --fw-medium: 450;
+  --fw-semi-bold: 540;
+  --fw-bold: 630;
+  --fw-extra-bold: 720;
+  --fw-black: 810;
+
+  --fw-book-optical-gray-on-white: 270;
+  --fw-book-optical-accent-on-white: 270;
+  --fw-book-optical-white-on-black: 190;
+
+  --fw-regular-optical-gray-on-white: 320;
+  --fw-regular-optical-accent-on-white: 320;
+  --fw-regular-optical-white-on-black: 240;
+
+  --fw-medium-optical-gray-on-white: 410;
+  --fw-medium-optical-accent-on-white: 410;
+  --fw-medium-optical-white-on-black: 330;
+
+  --fw-bold-optical-white-on-black: 500;
+
+  --fs-tiny: 0.65rem;
+  --fs-small: 0.75rem;
+  --fs-base: 1rem;
+  --fs-large: 1.4rem;
+
+  --fs-h1: 6rem;
+  --fs-h2: 5rem;
+  --fs-h3: 4rem;
+  --fs-h4: 3rem;
+  --fs-h5: 2rem;
+}

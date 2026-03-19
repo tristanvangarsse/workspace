@@ -1,0 +1,86 @@
+.alt-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 120px 0 450px 0;
+  width: 100%;
+  background: rgb(24,24,24);
+  background: linear-gradient(0deg, var(--clr-mono-8) 0%, var(--clr-mono-8) 10%, rgba(12,20,43,1) 59%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); 
+}
+
+.alt-section > .landing-page-title {
+  font-weight: var(--fw-regular-optical-white-on-black);
+}
+
+.artifacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 200px 10vw;
+  padding: 200px 20px 0 20px;
+  max-width: 1200px;
+}
+
+.artifacts > div:nth-child(even) {
+    transform: translateY(50%);
+}
+
+.artifacts > div > img,
+.artifacts > div > video {
+  border-radius: 10px;
+}
+
+.artifacts > div > video {
+  width: 500px;
+  height: auto;
+  pointer-events: none;
+}
+
+
+.artifacts > div > .description {
+  font-size: var(--fs-base);
+  font-weight: var(--fw-regular-optical-white-on-black);
+  line-height: 1.5em;
+  color: rgba(255, 255, 255, 0.35);
+  margin-top: -20px; /* removing top margin is necessary to take away the space from the like button */
+}
+
+@media only screen and (max-width: 1500px) {
+
+  .artifacts > div > video {
+    width: calc(43vw - 30px);
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .alt-section {
+    padding: 120px 0 100px 0;
+  }
+  
+  .artifacts {
+    grid-template-columns: repeat(1, 1fr); /* Two equal columns */
+    gap: 80px;
+    padding: 170px 7vw 0 7vw;
+  }
+  
+  .artifacts > div:nth-child(even) {
+      transform: translateY(0%);
+  }
+
+  .artifacts > div > img,
+  .artifacts > div > video {
+    margin: 0 0 15px 0;
+  }
+
+  .artifacts > div > video {
+    width: 100%;
+  }
+
+  .artifacts > div > .description {
+    font-size: var(--fs-base);
+  }
+
+}

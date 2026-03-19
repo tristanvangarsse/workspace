@@ -1,0 +1,23 @@
+.contact-info {
+  margin-top: -30px;
+}
+
+.contact-info .highlight {
+  color: var(--clr-accent);
+}
+
+.contact-icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.contact-icons img {
+  width: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-info {
+    margin-top: 50px;
+  }
+}

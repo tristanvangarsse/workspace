@@ -1,0 +1,21 @@
+.back-to-top {
+  position: fixed;
+  z-index: 10;
+  width: 60px;
+  bottom: 10%;
+  right: 3vw;
+  padding: 0 10px;
+  clip-path: inset(100%, 100%, 100%, 100%);
+  overflow: hidden;
+  display: none;
+  /* filter: drop-shadow(-2px 2px 2px hsla(356, 47%, 6%, 0.2)); */
+}
+
+@media (pointer: coarse) { /* checks for touchscreen devices */
+
+    .back-to-top {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+}

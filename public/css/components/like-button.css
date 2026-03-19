@@ -1,0 +1,132 @@
+.like-button {
+  visibility: hidden;
+  display: none;
+
+  position: relative;
+  width:fit-content;
+  z-index: 50;
+  display: flex;
+  gap: 7px;
+  padding: 7px 9px 7px 8px;
+  border-radius: 12px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition:
+    transform 0.1s ease;
+}
+
+  .like-button.liked {
+    opacity: 1; 
+  }
+
+
+@media (hover: hover) and (pointer: fine) {
+
+  .like-button:hover {
+    opacity: 1; 
+  }
+
+  /* hover */
+  .like-button:hover {
+    transform: scale(1.05);
+  }
+
+}
+
+/* active / pressed */
+.like-button:active {
+  transform: scale(0.85);
+}
+
+/* liked state */
+.like-button.liked img,
+.like-button:hover .like-icon {
+  filter: brightness(0) saturate(100%) invert(59%) sepia(49%) saturate(402%) hue-rotate(306deg) brightness(98%) contrast(100%);
+}
+
+.like-button img {
+  margin-top: 1px;
+  width: 20px;
+}
+
+.like-count {
+  margin-top: 1px;
+  font-size: 15px;
+  color: white;
+}
+
+/* PROJECTS */
+
+.project .like-button {
+  top: 30px;
+  left: 0px;
+  background: hsla(var(--clr-h),80%,40%,0.7);
+  backdrop-filter: blur(3px);
+  border-top: 0.7px solid rgba(255, 255, 255, 0.723);
+}
+
+.project.yellow-pink .like-button{
+  background: hsla(var(--clr-h),100%,45%,0.7);
+}
+
+.project.baby-blue .like-button{
+  background: hsla(var(--clr-h),var(--clr-s),75%,0.7);
+}
+
+.project.dark-blue .like-button,
+.project.neon-green .like-button,
+.project.black .like-button  {
+  background: hsla(var(--clr-h),70%,40%,0.7);
+}
+
+/* ARTIFACTS */
+
+.artifacts .like-button {
+  bottom: 53px;
+  left: 16px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  border-top: 0.7px solid rgba(255, 255, 255, 0.723);
+  filter: drop-shadow(0px 0px 20px rgba(27, 27, 27, 0.761));
+}
+
+@media only screen and (max-width: 900px) {
+
+  /* PROJECTS */
+
+  .project .like-button {
+    top: -16px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  
+.like-button {
+   opacity: 1; 
+}
+
+  .like-button img {
+    width: 25px;
+  }
+
+  .like-count {
+  margin-top: 0;
+  font-size: 19px;
+  }
+
+  /* ARTIFACTS */
+
+  .artifacts .like-button {
+    bottom: 73px;
+    left: 16px;
+    gap: 7px;
+  }
+
+}

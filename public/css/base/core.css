@@ -1,0 +1,56 @@
+html {
+  overflow-wrap: anywhere; /* prevents breaking div */
+  overflow-wrap: break-word; /* prevents breaking div */
+  font-size: 18px; /* dictates rem size */
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 16px; /* dictates rem size */
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+*::selection {
+  color: var(--clr-white);
+  background-color: var(--clr-mono-30);
+}
+
+.root p { /* root index.html style */
+  margin: 20px 0 0 20px;
+  font-size: 40px;
+  font-weight:100;
+  font-family: sans-serif;
+  color: lightgray;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out 6s;
+}
+
+.root a {/* root index.html style */
+  font-size: 50px;
+  text-decoration: none;
+  color: hsl(355, 68%, 60%);
+}
+
+.debug-mode {
+  display: none;
+  position:fixed;
+  z-index: 100;
+  left: 10px;
+  top: 7px;
+  color: red;
+  font-size: var(--fs-base);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}

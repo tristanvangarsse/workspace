@@ -28,6 +28,10 @@ function copyDir(src, dest) {
     const srcPath = path.join(src, entry.name);
     const destPath = path.join(dest, entry.name);
 
+    if (src === PUBLIC_DIR && entry.isDirectory() && entry.name === "css") {
+      continue;
+    }
+
     if (entry.isDirectory()) {
       copyDir(srcPath, destPath);
     } else {
@@ -92,9 +96,60 @@ function getPageInfo(templateFile) {
   };
 }
 
+function bundleCSS() {
+  const cssDir = path.join(PUBLIC_DIR, "css");
+  const entryFile = path.join(cssDir, "style.css");
+
+  if (!fs.existsSync(entryFile)) {
+    console.log("No public/css/style.css found, skipping CSS bundle");
+    return;
+  }
+
+  const seen = new Set();
+
+  function inlineCss(filePath) {
+    const absolutePath = path.resolve(filePath);
+
+    if (seen.has(absolutePath)) {
+      return "";
+    }
+    seen.add(absolutePath);
+
+    if (!fs.existsSync(absolutePath)) {
+      throw new Error(`CSS file not found: ${absolutePath}`);
+    }
+
+    let css = fs.readFileSync(absolutePath, "utf8");
+
+    css = css.replace(/@import\s+["'](.+?)["'];?/g, (_, importPath) => {
+      const importedFile = path.resolve(path.dirname(absolutePath), importPath);
+      return inlineCss(importedFile);
+    });
+
+    return css;
+  }
+
+  let bundledCss = inlineCss(entryFile);
+
+  bundledCss = bundledCss
+    .replace(/\/\*[\s\S]*?\*\//g, "")
+    .replace(/\s+/g, " ")
+    .replace(/\s*([{}:;,])\s*/g, "$1")
+    .trim();
+
+  const outDir = path.join(DIST_DIR, "css");
+  ensureDir(outDir);
+
+  const outFile = path.join(outDir, "style.css");
+  fs.writeFileSync(outFile, bundledCss, "utf8");
+
+  console.log(`Bundled CSS to ${outFile}`);
+}
+
 function build() {
   emptyDir(DIST_DIR);
   copyDir(PUBLIC_DIR, DIST_DIR);
+  bundleCSS();
 
   const languages = loadLanguages();
   const templateFiles = fs.readdirSync(TEMPLATES_DIR).filter(file => file.endsWith(".html"));
