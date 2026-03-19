@@ -1,96 +1,107 @@
 .popdown-menu {
-  --bg-color: var(--clr-bg-popdown-menu);
-  position: fixed;
-  z-index: 99;
-  left: 50%;
-  transform: translate(-50%,-100px);
-  top: 10px;
-  width: clamp(1px,90vw,800px);
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 25px 0 25px;
-  background-color: rgba(var(--bg-color),var(--bg-color),var(--bg-color), 0.8);
-  border-radius: 26px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 -10px 60px rgba(0, 0, 0, 0.18);
-  opacity: 0; /* hides until .show is added*/
+    --bg-color: var(--clr-bg-popdown-menu);
+    position: fixed;
+    z-index: 99;
+    left: 50%;
+    transform: translate(-50%, -100px);
+    top: 10px;
+    width: clamp(1px, 90vw, 800px);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px 0 25px;
+    background-color: rgba(
+        var(--bg-color),
+        var(--bg-color),
+        var(--bg-color),
+        0.8
+    );
+    border-radius: 26px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -10px 60px rgba(0, 0, 0, 0.18);
+    opacity: 0; /* hides until .show is added*/
 }
 
 .popdown-menu.show {
-  opacity: 1;
+    opacity: 1;
 }
 
 .popdown-menu .wordmark-link {
-  opacity: 1;
-  transition: opacity 0.5s ease;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 
 .popdown-menu a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
 }
 
 .popdown-menu .logomark {
-  width: 20px;
-  margin-right: 14px;
+    width: 20px;
+    margin-right: 14px;
 }
 .popdown-menu .wordmark {
-  width: 182px;
-  height: 20px;
+    width: 182px;
+    height: 20px;
 }
 
 .popdown-menu nav {
-  display: flex;
-  align-items: center;
-  font-family: var(--ff-heading);
-  font-weight: var(--fw-regular);
-  font-size: var(--fs-base);
-  color: black;
+    display: flex;
+    align-items: center;
+    font-family: var(--ff-heading);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+    color: black;
 }
 
-.popdown-menu nav > *:not(:first-child):not(:last-child) {   
-  margin: 0 0 0 clamp(20px, 2vw, 40px);
+.popdown-menu nav > *:not(:first-child):not(:last-child) {
+    margin: 0 0 0 clamp(20px, 2vw, 40px);
 }
 
 .popdown-menu nav > a:nth-last-child(2) {
-  color: var(--clr-accent);
+    color: var(--clr-accent);
 }
 
 .popdown-menu nav > a {
-  transition: color 0.1s ease;
+    transition: color 0.1s ease;
 }
 
 .popdown-menu nav > a:hover,
 .popdown-menu nav > a.current-page {
-  color: var(--clr-accent);
+    color: var(--clr-accent);
 }
 
 .popdown-menu .hamburger-menu {
-  display: none
+    display: none;
 }
 
 @media only screen and (max-width: 700px) {
+    .popdown-menu {
+        height: 50px;
+        background-color: rgba(
+            var(--bg-color),
+            var(--bg-color),
+            var(--bg-color),
+            0.98
+        );
+        border-radius: 26px;
+    }
 
-  .popdown-menu {
-    height: 50px;
-    background-color: rgba(var(--bg-color),var(--bg-color),var(--bg-color), 0.98);
-    border-radius: 26px;
-  }
+    .popdown-menu .hamburger-menu {
+        display: block;
+        margin: 3px 0 0 0;
+        padding: 15px;
+        cursor: pointer;
+    }
 
-  .popdown-menu .hamburger-menu {
-    display: block;
-    margin: 3px 0 0 0;
-    padding: 15px;
-    cursor: pointer;
-  }
+    .popdown-menu > nav > a {
+        display: none;
+    }
 
-  .popdown-menu > nav > a {
-    display: none
-  }
-
-  .popdown-menu nav { padding-bottom: 2px } /* to align with wordmark */
+    .popdown-menu nav {
+        padding-bottom: 2px;
+    } /* to align with wordmark */
 }

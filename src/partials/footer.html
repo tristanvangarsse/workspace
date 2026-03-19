@@ -1,3 +1,29 @@
-<footer>
-  <p>&copy; 2026 {{site.name}}</p>
+<footer class="dark" id="contact-section">
+    <div class="container">
+        <div class="title">{{footer.title}}</div>
+        <a
+            draggable="false"
+            href="mailto:vangarsse.tristan@gmail.com"
+            class="button"
+            >{{footer.contact}}</a
+        >
+        <div class="information">
+            <div class="subtitle">
+                {{footer.copyright}}<br />{{footer.reservation}}
+            </div>
+            <a
+                draggable="false"
+                href="mailto:vangarsse.tristan@gmail.com"
+                class="subtitle underscored"
+                >{{contactInfo.email}}</a
+            >
+            <div
+                draggable="false"
+                href="tel:+32483146818"
+                class="subtitle underscored"
+            >
+                {{contactInfo.telephone}}
+            </div>
+        </div>
+    </div>
 </footer>

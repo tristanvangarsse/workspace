@@ -1,0 +1,417 @@
+.projects {
+    width: 100%;
+}
+
+.projects .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* ------------------------------- */
+/* ------------------------------- */
+
+.projects .project {
+    --fw-title: var(--fw-book);
+    --fw-name: var(--fw-bold);
+    --fw-tags: var(--fw-regular);
+    --fw-description: var(--fw-book);
+    --fw-link: var(--fw-book);
+    --fw-supporting: var(--fw-book);
+
+    --clr-name: var(--clr-main);
+    --clr-title: var(--clr-main);
+    --clr-tags: var(--clr-main);
+    --clr-description: var(--clr-main);
+    --clr-link: var(--clr-main);
+    --clr-supporting: var(--clr-main);
+
+    --clr-dim: hsla(var(--clr-h), var(--clr-s), var(--clr-l), 0.6);
+    --clr-selection: hsla(calc(var(--clr-h) - 10), 80%, 50%, 0.3);
+}
+
+.projects .project *::selection {
+    color: white;
+    background: var(--clr-selection);
+}
+
+.projects .project.verbeek,
+.projects .project.van-looy,
+.projects .project.kuleuven {
+    --fw-title: var(--fw-book-optical-white-on-black);
+    --fw-name: var(--fw-bold-optical-white-on-black);
+    --fw-tags: var(--fw-regular-optical-white-on-black);
+    --fw-description: var(--fw-book-optical-white-on-black);
+    --fw-link: var(--fw-book-optical-white-on-black);
+    --fw-supporting: var(--fw-regular-optical-white-on-black);
+}
+
+.projects .project.van-dender {
+    --clr-h: 342;
+    --clr-s: 63%;
+    --clr-l: 41%;
+    --clr-main: hsl(var(--clr-h), var(--clr-s), var(--clr-l));
+
+    background: linear-gradient(
+        180deg,
+        hsl(var(--clr-h), 20%, 100%) 0%,
+        hsl(var(--clr-h), 20%, 87%) 20%,
+        hsl(350, 80%, 85%) 70%,
+        hsl(350, 100%, 100%) 100%
+    );
+}
+
+.projects .project.kuleuven {
+    --clr-h: 205;
+    --clr-s: 90%;
+    --clr-l: 98%;
+    --clr-main: hsl(var(--clr-h), var(--clr-s), var(--clr-l));
+
+    background: linear-gradient(
+        180deg,
+        hsl(var(--clr-h), 90%, 45%) 0%,
+        hsl(190, 60%, 60%) 100%
+    );
+
+    --clr-description: hsla(var(--clr-h), var(--clr-s), var(--clr-l), 0.9);
+}
+
+.projects .project.mino {
+    --clr-h: 100;
+    --clr-s: 69%;
+    --clr-l: 19%;
+    --clr-main: hsl(var(--clr-h), var(--clr-s), var(--clr-l));
+
+    background: linear-gradient(
+        180deg,
+        hsl(140, 85%, 93%) 0%,
+        hsl(var(--clr-h), 30%, 60%) 80%,
+        hsl(90, 50%, 70%) 100%
+    );
+}
+
+.projects .project.verbeek {
+    --clr-h: 205;
+    --clr-s: 0%;
+    --clr-l: 90%;
+    --clr-main: hsl(var(--clr-h), var(--clr-s), var(--clr-l));
+
+    background: linear-gradient(
+        180deg,
+        hsl(var(--clr-h), 80%, 15%) 0%,
+        hsl(var(--clr-h), 70%, 18%) 100%
+    );
+
+    --clr-dim: hsla(var(--clr-h), 100%, var(--clr-l), 0.8);
+    --clr-description: var(--clr-dim);
+}
+
+.h {
+    color: hsl(131, 100%, 42%);
+    color: #154721;
+    color: hsl(148, 98%, 18%);
+}
+
+.projects .project.van-looy {
+    --clr-h: 131;
+    --clr-s: 100%;
+    --clr-l: 42%;
+    --clr-main: hsl(var(--clr-h), var(--clr-s), var(--clr-l));
+
+    background: linear-gradient(
+        180deg,
+        hsl(190, 30%, 7%) 0%,
+        hsl(130, 40%, 9%) 100%
+    );
+
+    --clr-description: hsla(var(--clr-h), var(--clr-s), var(--clr-l), 0.6);
+}
+
+.projects .project.bruxelles-ma-belle {
+    --clr-h: 330;
+    --clr-s: 79%;
+    --clr-l: 50%;
+    --clr-main: hsl(var(--clr-h), var(--clr-s), var(--clr-l));
+
+    background: linear-gradient(
+        180deg,
+        hsl(37, 84%, 88%) 0%,
+        hsl(var(--clr-h), 60%, 90%) 100%
+    );
+
+    --clr-description: hsla(var(--clr-h), var(--clr-s), var(--clr-l), 0.8);
+}
+
+/* ------------------------------- */
+/* ------------------------------- */
+
+.projects .container {
+    max-width: 1200px;
+    padding: 100px 30px 0px 30px;
+    margin-right: 10vw;
+}
+
+.projects .slideshow {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+    transition: opacity 0.3s linear;
+}
+
+.slide.active {
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+}
+
+.slide img,
+.slide video {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.indicators {
+    padding-left: 2px; /* optical adjustment radius slideshow */
+    line-height: 0%;
+}
+
+.indicator-container {
+    display: inline-block;
+    padding: 3px 0; /* larger clickable area */
+    cursor: pointer;
+}
+
+.indicator {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    border-radius: 100px;
+    margin: 20px 1px 0 0;
+    background-color: var(--clr-dim);
+    transition: background-color 0.5s ease;
+}
+
+.indicator-container.active .indicator {
+    background-color: var(--clr-main);
+}
+
+/* ------------------------------- */
+/* ------------------------------- */
+
+.projects .text-content {
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+.projects .text-content > div:nth-child(1) {
+    flex-basis: 50%;
+    padding-left: 2px; /* optical adjustment radius slideshow */
+    padding-right: 100px;
+}
+.projects .text-content div:nth-child(2) {
+    flex-basis: 50%;
+}
+
+.projects .title {
+    font-weight: var(--fw-title);
+    font-size: var(--fs-h5);
+    color: var(--clr-title);
+}
+
+.projects .title span {
+    font-weight: var(--fw-name);
+    color: var(--clr-name);
+    letter-spacing: -0.12rem;
+}
+
+.projects .tags {
+    margin-top: 10px;
+    font-size: var(--fs-base);
+    font-weight: var(--fw-tags);
+    color: var(--clr-dim);
+}
+
+.projects .description {
+    font-weight: var(--fw-description);
+    color: var(--clr-description);
+    line-height: 160%;
+    margin: 8px 0 16px 0;
+}
+
+.projects .link {
+    font-weight: var(--fw-link);
+    margin-top: 20px;
+    color: var(--clr-link);
+}
+
+/* ------- */
+
+.projects .supporting-visuals {
+    display: flex;
+    padding: 110px 30px 180px 30px;
+    margin-left: 15vw;
+    width: 70vw;
+}
+
+.projects .supporting-visuals div:nth-child(1) {
+    flex-basis: 65%;
+}
+.projects .supporting-visuals div:nth-child(2) {
+    flex-basis: 35%;
+}
+
+.projects .supporting-visuals div:nth-child(1) .supporting-image {
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.projects .supporting-visuals div:nth-child(2) .supporting-image {
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.projects .supporting-image {
+    min-width: 0;
+    min-height: 600px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.projects .supporting-image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* fills container while maintaining aspect ratio */
+    object-position: center; /* centers the crop */
+    min-width: 100%; /* ensures full width coverage */
+    min-height: 100%; /* ensures full height coverage */
+}
+
+.projects .supporting-text {
+    margin-top: 10px;
+    margin-right: 30px; /* buffer so text doesn't touch*/
+    font-size: var(--fs-base);
+    font-weight: var(--fw-supporting);
+    color: var(--clr-dim);
+}
+
+.projects .project.bruxelles-ma-belle,
+.projects .project.van-looy {
+    padding-bottom: 160px;
+}
+
+/* target laptop screens */
+@media only screen and (max-height: 800px) and (min-width: 1000px) {
+    .projects .slideshow {
+        width: 140vh;
+    }
+
+    .projects .supporting-image {
+        height: 80vh;
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .projects .supporting-visuals {
+        padding: 110px 30px 180px 30px;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .projects .container {
+        margin-right: 0;
+        padding-top: 50px;
+    }
+
+    .projects .text-content {
+        flex-direction: column;
+    }
+
+    .projects .tags {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projects .project {
+        --fw-title: var(--fw-regular);
+        --fw-description: var(--fw-medium);
+        --fw-link: var(--fw-medium);
+    }
+
+    .projects .project.verbeek,
+    .projects .project.kuleuven {
+        --fw-title: var(--fw-medium-optical-white-on-black);
+        --fw-description: var(--fw-medium-optical-white-on-black);
+        --fw-link: var(--fw-medium-optical-white-on-black);
+    }
+
+    .project.green .spacer-50 {
+        display: none;
+    }
+
+    .indicator-container {
+        padding: 5px 0; /* larger clickable area */
+    }
+
+    .indicator {
+        display: inline-block;
+        width: 30px;
+        height: 4px;
+        border-radius: 100px;
+        margin: 20px 1px 0 0;
+        background-color: var(--clr-dim);
+        transition: background-color 0.5s ease;
+    }
+
+    .projects .text-content > div:nth-child(1) {
+        padding-left: 0px; /* optical adjustment removed radius slideshow */
+        padding-right: 20px;
+    }
+
+    .projects .tags {
+        margin-bottom: 40px;
+    }
+
+    .projects .description:nth-child(2) {
+        display: none;
+    }
+
+    .projects .supporting-visuals {
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .projects .supporting-image {
+        border-radius: 10px;
+        height: 60vh;
+        min-height: auto;
+    }
+
+    .projects .supporting-text {
+        font-size: var(--fs-base);
+        margin: 15px 0 60px 0;
+    }
+
+    .projects .project.bruxelles-ma-belle,
+    .projects .project.van-looy {
+        padding-bottom: 100px;
+    }
+}

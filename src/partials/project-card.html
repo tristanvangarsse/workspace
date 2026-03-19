@@ -1,0 +1,75 @@
+<div class="project {{slug}}">
+    {{#if hasSpacer200}}
+    <div class="spacer-200"></div>
+    {{/if}}
+    <div class="spacer-50"></div>
+
+    <div class="container" id="{{containerId}}">
+        <div class="slideshow {{triggerClass}}" id="{{slideshowId}}">
+            {{#each slides}}
+            <div class="slide {{activeClass}}">
+                <img
+                    class="lazyload"
+                    draggable="false"
+                    src="{{thumbSrc}}"
+                    data-src="{{fullSrc}}"
+                    alt="{{alt}}"
+                />
+            </div>
+            {{/each}}
+        </div>
+
+        <div class="indicators">
+            {{#each slides}}
+            <div class="indicator-container {{activeClass}}">
+                <span class="indicator"></span>
+            </div>
+            {{/each}}
+        </div>
+
+        <div class="text-content">
+            <div>
+                <h1 class="title">
+                    <span>{{brandName}}</span> — {{titleSuffix}}
+                </h1>
+
+                <div class="tags">{{tags}}</div>
+
+                <button
+                    class="like-button"
+                    data-like-id="{{likeId}}"
+                    aria-pressed="false"
+                >
+                    <div class="like-icon">
+                        <img src="{{likeIconSrc}}" alt="Like button" />
+                    </div>
+                    <span class="like-count">0</span>
+                </button>
+            </div>
+
+            <div>
+                <div class="description">{{description}}</div>
+                <a class="link" href="{{caseStudyHref}}">{{caseStudyLabel}}</a>
+            </div>
+        </div>
+    </div>
+
+    {{#if supportingVisuals}}
+    <div class="supporting-visuals {{triggerClass}}">
+        {{#each supportingVisuals}}
+        <div>
+            <div class="supporting-image">
+                <img
+                    class="lazyload"
+                    draggable="false"
+                    src="{{thumbSrc}}"
+                    data-src="{{fullSrc}}"
+                    alt="{{alt}}"
+                />
+            </div>
+            <div class="supporting-text">{{text}}</div>
+        </div>
+        {{/each}}
+    </div>
+    {{/if}}
+</div>

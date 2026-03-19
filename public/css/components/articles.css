@@ -1,128 +1,125 @@
 .articles {
-  display: flex;
-  margin: 0 auto;
-  padding: 20px 50px;
-  width: 100%;
-  overflow: hidden;
-  --width: 400px;
-  > * {
-    flex: 0 0 100%;
-  }
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 50px;
+    width: 100%;
+    overflow: hidden;
+    --width: 400px;
+    > * {
+        flex: 0 0 100%;
+    }
 }
 
 .group {
-  display: flex;
-  gap: 50px;
-  padding-right: 50px;
-  will-change: transform; /* We should be nice to the browser - let it know what we're going to animate. */
-  animation: scrolling 30s linear infinite;
+    display: flex;
+    gap: 50px;
+    padding-right: 50px;
+    will-change: transform; /* We should be nice to the browser - let it know what we're going to animate. */
+    animation: scrolling 30s linear infinite;
 }
 
 @keyframes scrolling {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .articles .container {
-  display: flex;
-  flex-direction: column;
-  width: var(--width);
-  gap: 1vw;
+    display: flex;
+    flex-direction: column;
+    width: var(--width);
+    gap: 1vw;
 }
 
 .articles .container .image-container {
-  object-fit: contain;
-  border-radius: 20px;
-  overflow: hidden;
-  width: var(--width);
-  height: var(--width);
+    object-fit: contain;
+    border-radius: 20px;
+    overflow: hidden;
+    width: var(--width);
+    height: var(--width);
 }
 
 .articles .container .image-content {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .articles .container .title {
-  font-size: var(--fs-h5);
-  font-weight: var(--fw-light);
-  line-height: 115%;
-  margin-bottom: 5px;
+    font-size: var(--fs-h5);
+    font-weight: var(--fw-light);
+    line-height: 115%;
+    margin-bottom: 5px;
 }
 
 .articles .container .description {
-  font-size: var(--fs-basis);
-  font-weight: var(--fw-book);
+    font-size: var(--fs-basis);
+    font-weight: var(--fw-book);
 }
 
 .button-link {
-  width: fit-content;
-  display: flex;
-  margin: 25px 0 0 0;
-  padding: 10px 15px;
-  border-radius: 100px;
-  border: 2px solid black;
-  font-size: var(--fs-small);
-  font-weight: var(--fw-medium);
+    width: fit-content;
+    display: flex;
+    margin: 25px 0 0 0;
+    padding: 10px 15px;
+    border-radius: 100px;
+    border: 2px solid black;
+    font-size: var(--fs-small);
+    font-weight: var(--fw-medium);
 }
 
-.button-link img { /* pointing arrow */
-  margin-left: 10px;
-  width: 10px;
+.button-link img {
+    /* pointing arrow */
+    margin-left: 10px;
+    width: 10px;
 }
 
 .button-link-arrow {
-  margin: 4px 0 0 10px;
-  width: 10px;
-  height: 10px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-image: url("https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/arrow-up-right-neutral-100.svg");
+    margin: 4px 0 0 10px;
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/arrow-up-right-neutral-100.svg");
 }
 
 .disabled .button-link-arrow {
-  background-image: url("https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/arrow-up-right-neutral-600.svg");
+    background-image: url("https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/arrow-up-right-neutral-600.svg");
 }
 
 .button-link.disabled {
-  --clr-disabled-button: var(--clr-mono-60);
-  color: var(--clr-disabled-button);
-  border-color: var(--clr-disabled-button);
+    --clr-disabled-button: var(--clr-mono-60);
+    color: var(--clr-disabled-button);
+    border-color: var(--clr-disabled-button);
 }
 
-
 @media only screen and (max-width: 600px) {
+    .articles {
+        --width: 250px;
+    }
 
-  .articles {
-    --width: 250px;
-  }
+    .group {
+        gap: 30px;
+        animation: scrolling 40s linear infinite;
+    }
 
-  .group {
-    gap: 30px;
-    animation: scrolling 40s linear infinite;
-  }
+    .articles .container {
+        gap: 20px;
+    }
 
-  .articles .container {
-    gap: 20px;
-  }
+    .articles .container .title {
+        font-size: var(--fs-large);
+    }
 
-  .articles .container .title {
-    font-size: var(--fs-large);
-  }
+    .articles .container .description {
+        font-size: var(--fs-basis);
+    }
 
-  .articles .container .description {
-    font-size: var(--fs-basis);
-  }
-
-  .button-link {
-  }
-
-
+    .button-link {
+    }
 }

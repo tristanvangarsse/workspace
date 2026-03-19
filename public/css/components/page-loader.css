@@ -1,17 +1,22 @@
 .page-loader--blank {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: 100;
-  background-color: var(--clr-white);
-  animation: page-loader--blank 0.2s ease-in-out 0.3s 1 normal forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 100;
+    background-color: var(--clr-white);
+    animation: page-loader--blank 0.2s ease-in-out 0.3s 1 normal forwards;
 }
 
 @keyframes page-loader--blank {
-	0% { opacity: 1; visibility: visible }
-  100% { opacity: 0; visibility: hidden }
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
-

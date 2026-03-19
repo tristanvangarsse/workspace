@@ -1,66 +1,65 @@
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 90px 50px 0 50px;
-  width: 100%;
-  max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 50px 0 50px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .header a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
 }
 
 .header .logomark {
-  width: 20px;
-  margin-right: 15px;
+    width: 20px;
+    margin-right: 15px;
 }
 
 header .wordmark {
-  width: 182px;
+    width: 182px;
 }
 
 header nav {
-  display: flex;
-  align-items: center;
-  font-family: var(--ff-heading);
-  font-weight: var(--fw-regular);
-  font-size: var(--fs-base);
+    display: flex;
+    align-items: center;
+    font-family: var(--ff-heading);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
 }
 
-header nav > *:not(:first-child) {   
-  margin: 0 0 0 clamp(20px, 2vw, 60px);
+header nav > *:not(:first-child) {
+    margin: 0 0 0 clamp(20px, 2vw, 60px);
 }
 
 header nav > a:last-child {
-  color: var(--clr-accent);
+    color: var(--clr-accent);
 }
 
 header nav > a {
-  transition: color 0.1s ease;
+    transition: color 0.1s ease;
 }
 
 header nav > a:hover,
 header nav > a.current-page {
-  color: var(--clr-accent);
+    color: var(--clr-accent);
 }
 
 .lang-arrow {
-  padding-left: 6px;
-  height: 12px;
+    padding-left: 6px;
+    height: 12px;
 }
 
 .lang-arrow-mobile {
-  padding-left: 4px;
-  height: 10px;
+    padding-left: 4px;
+    height: 10px;
 }
 
 @media only screen and (max-width: 700px) {
-
-  header {
-    display: none;
-  }
+    header {
+        display: none;
+    }
 }
