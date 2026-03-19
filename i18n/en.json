@@ -1,0 +1,19 @@
+{
+  "lang": "en",
+  "site": {
+    "name": "My Site",
+    "baseUrl": ""
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "home": {
+    "title": "Welcome",
+    "intro": "This is my website."
+  },
+  "about": {
+    "title": "About",
+    "text": "I build simple static websites."
+  }
+}
