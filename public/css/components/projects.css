@@ -230,6 +230,7 @@
 }
 
 .projects .title span {
+    text-transform: uppercase;
     font-weight: var(--fw-name);
     color: var(--clr-name);
     letter-spacing: -0.12rem;
