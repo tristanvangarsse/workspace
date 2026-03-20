@@ -4,8 +4,8 @@
     "private": true,
     "scripts": {
         "build": "node build.js",
-        "watch": "nodemon --delay 500ms --watch src --watch build.js --ext js --ignore dist --ignore node_modules --exec \"npm run build\"",
-        "serve": "browser-sync start --server dist --files 'dist/**/*' --no-notify --no-open",
+        "watch": "nodemon --delay 200ms --watch . --ext js,json,html,md,njk,css --ignore dist --ignore node_modules --ignore .git --exec \"npm run build\"",
+        "serve": "browser-sync start --server dist --files \"dist/**/*.html,dist/**/*.css,dist/**/*.js\" --no-notify --no-open",
         "dev": "concurrently \"npm run watch\" \"npm run serve\""
     }
 }
