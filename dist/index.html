@@ -1,13 +1,48 @@
 
-    <!doctype html>
+    <!DOCTYPE html>
     <html lang="en">
     <head>
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=./en/">
-    <title>Redirecting...</title>
+        <meta charset="UTF-8">
+        <title>Tristan Van Garsse · Designer</title>
     </head>
-    <body>
-    <p><a href="./en/">Go to site</a></p>
+    <body class="root">
+        <script>
+            window.onload = function () {
+                const el = document.getElementById("fadeText");
+                if (el) el.style.opacity = "1";
+            };
+        </script>
+        <script>
+            (function () {
+                const supported = ["nl", "fr", "en"];
+
+                const saved = localStorage.getItem("preferredLanguage");
+                if (supported.includes(saved)) {
+                    window.location.replace("./" + saved + "/");
+                    return;
+                }
+
+                const langs = navigator.languages || [navigator.language || "en"];
+
+                const detected = langs
+                    .map(lang => lang.toLowerCase())
+                    .find(lang =>
+                        lang.startsWith("nl") ||
+                        lang.startsWith("fr") ||
+                        lang.startsWith("en")
+                    );
+
+                const target = detected
+                    ? detected.startsWith("nl")
+                        ? "nl"
+                        : detected.startsWith("fr")
+                        ? "fr"
+                        : "en"
+                    : "en";
+
+                window.location.replace("./" + target + "/");
+            })();
+        </script>
     </body>
     </html>
     

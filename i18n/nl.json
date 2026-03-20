@@ -1,0 +1,624 @@
+{
+    "lang": "en",
+    "site": {
+        "name": "Tristan Van Garsse",
+        "baseUrl": ""
+    },
+    "nav": {
+        "work": "NEDERLANDS",
+        "about": "About",
+        "artifacts": "Artifacts",
+        "contact": "Contact"
+    },
+    "contactInfo": {
+        "email": "vangarsse.tristan@gmail.com",
+        "telephone": "+32(0)4831 46818"
+    },
+    "landingPage": {
+        "descriptionStatic": "I'm a designer with 6 years’ experience in creative strategy, brands, cultural codes, javascript, semiotics, color, gestalt, artificial intelligence, art history, python, critical design, copywriting, grid systems, symbolism, modular design",
+        "descriptionDynamic": "I'm&nbsp;a&nbsp;designer&nbsp;with|6&nbsp;years’&nbsp;experience&nbsp;in|creative&nbsp;strategy,&nbsp;brands,|cultural&nbsp;codes,&nbsp;coding|semiotics,&nbsp;color,&nbsp;gestalt,|artificial&nbsp;intelligence,|art&nbsp;history,&nbsp;critical&nbsp;design,|copywriting,&nbsp;grid&nbsp;systems|symbolism,&nbsp;modular&nbsp;design"
+    },
+    "projects": [
+        {
+            "slug": "van-dender",
+            "hasSpacer200": true,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "van-dender-section",
+            "brandName": "VAN DENDER",
+            "titleSuffix": "Divine Tradition, Rebranded",
+            "tags": "Rebranding, Brand Identity, Digital Strategy",
+            "likeId": "project-vandender",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "description": "Van Dender is a heritage chocolatier reimagined for a new generation. We replaced the outdated logo with a custom wordmark, refined the color palette to deep cocoa and muted burgundy, and redrew the coat of arms for digital and print. The identity blends tradition with modern clarity: minimal, elegant, and built for both shelf and screen.",
+            "caseStudyHref": "./van-dender/",
+            "caseStudyLabel": "Visit the case study",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_1_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_1.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_2.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_3.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_4.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_5_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_5.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_6_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_6.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_7_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_7.jpg",
+                    "alt": ""
+                }
+            ],
+            "supportingVisuals": [
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_8_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_8.jpg",
+                    "alt": "",
+                    "text": "Exploratory sketches for Van Dender's brand identity."
+                },
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_9_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_9.jpg",
+                    "alt": "",
+                    "text": "The custom-designed wordmark."
+                }
+            ]
+        },
+        {
+            "slug": "kuleuven",
+            "hasSpacer200": false,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "leuven-university-section",
+            "brandName": "Leuven University",
+            "titleSuffix": "Interactive tools for Flanders’ cultural heritage landscape",
+            "tags": "Web Design, Data Visualization",
+            "likeId": "project-kuleuven",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "description": "As Communication Designer for the KU Leuven, I created interactive data visualizations to analyze cultural heritage organizations, clustering them by discipline and mapping their connections. The work included a printed research dossier with custom typography and graphs, now used by the Flemish government to inform policy and funding decisions.",
+            "caseStudyHref": "./leuven-university/",
+            "caseStudyLabel": "View project details",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_1_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_1.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_2.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_3.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_4.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_5_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_5.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_6_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_6.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_7_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_7.jpg",
+                    "alt": ""
+                }
+            ],
+            "supportingVisuals": [
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_8_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_8.jpg",
+                    "alt": "",
+                    "text": "The final copy of the research dossier."
+                },
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_9_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_9.jpg",
+                    "alt": "",
+                    "text": "The custom wordmark."
+                }
+            ]
+        },
+        {
+            "slug": "mino",
+            "hasSpacer200": false,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "mino-section",
+            "brandName": "Mino.",
+            "titleSuffix": "A culinary time capsule where Armenian and French heritage collide",
+            "tags": "Brand Identity, Product Design",
+            "likeId": "project-mino",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "description": "Mino is a culinary bridge between Armenia’s smoky hearths and French’ refined tables. They are a brand new high-end dining experience. As such, we designed their brand identity from scratch. The logo combines a script font with clean typography, reflecting the balance of rustic and refined. The visuals draw from Armenian stone carvings and warm, smoky green textures.",
+            "caseStudyHref": "./mino/",
+            "caseStudyLabel": "Case study coming soon.",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_3.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_2.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_1_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_1.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_6_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_6.jpg",
+                    "alt": ""
+                }
+            ],
+            "supportingVisuals": [
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_4.jpg",
+                    "alt": "",
+                    "text": "The Armenian guardian dog meets his equal, French cuisine."
+                },
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_5_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_5.jpg",
+                    "alt": "",
+                    "text": "The custom wordmark."
+                }
+            ]
+        },
+        {
+            "slug": "verbeek",
+            "hasSpacer200": false,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "verbeek-section",
+            "brandName": "Verbeek",
+            "titleSuffix": "A visual identity for modern craftsmanship",
+            "tags": "Brand Identity, Logo Design",
+            "likeId": "project-kuleuven",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "description": "For Verbeek Interieur, a carpenter based near Leuven, I developed a visual identity that reflects their dedication to craftsmanship, precision, and modern aesthetics. The result is a timeless design that balances strength and elegance. The visual identity was expanded through a full set of logo variations, a color palette rooted in white and a rich blue, and a detailed brand guide to ensure consistency across print and digital media.",
+            "caseStudyHref": "./verbeek-interieur/",
+            "caseStudyLabel": "Visit the case study",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_6_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_6.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_2.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_3.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_7_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_7.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_8_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_8.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_9_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_9.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_5_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_5.jpg",
+                    "alt": ""
+                }
+            ],
+            "supportingVisuals": [
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_4.jpg",
+                    "alt": "",
+                    "text": "Exploratory sketches for Verbeek's brand identity."
+                },
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_10_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_10.jpg",
+                    "alt": "",
+                    "text": "The custom wordmark."
+                }
+            ]
+        },
+        {
+            "slug": "bruxelles-ma-belle",
+            "hasSpacer200": false,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "bruxelles-ma-belle-section",
+            "brandName": "Bruxelles Ma Belle",
+            "titleSuffix": "Visual identity for a community-driven podcast",
+            "tags": "Branding, Digital Design, Typography",
+            "likeId": "project-bruxelles-ma-belle",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "description": "As the lead designer, I created a vibrant visual identity for Bruxelles ma belle, a podcast celebrating stories of hope in Brussels. Inspired by the city’s energy, I developed two distinct concepts—one featuring a heart-shaped Brussels map and another with playful typography integrating subtle cross motifs.",
+            "caseStudyHref": "./bruxelles-ma-belle/",
+            "caseStudyLabel": "View project details",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_1_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_1.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_2.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_3.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_4.jpg",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "slug": "van-looy",
+            "hasSpacer200": false,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "van-looy-section",
+            "brandName": "Van Looy",
+            "titleSuffix": "Visual identity for a top-tier event and production partner",
+            "tags": "Brand identity, Logo design, Typography, Brand assets",
+            "likeId": "project-kuleuven",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "description": "Van Looy Productions builds and dismantles large-scale events; from festivals like Tomorrowland, the Ghent Festivities, and Rock Werchter to tour productions for international artists. The challenge: develop an identity that feels both tough and practical, while also professional enough for high-stakes production work and B2B.",
+            "caseStudyHref": "./van-looy/",
+            "caseStudyLabel": "Case study coming soon.",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_1_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_1.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_2.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_3.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_4.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_5_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_5.jpg",
+                    "alt": ""
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_6_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_6.jpg",
+                    "alt": ""
+                }
+            ]
+        }
+    ],
+    "about": {
+        "title": "about me",
+        "intro1": "I'm a <em>designer</em> with six years of experience in branding, UX and graphic design.",
+        "intro2": "With an MFA in <em>Media and Information Design</em> I am up to date with modern industry standards and state&#x2011;of&#x2011;the&#x2011;art forms of communication.",
+        "intro3": "My passion for <em>impeccable design</em> and creative problem&#x2011;solving gives me a unique perspective on contemporary issues.",
+        "gaia": {
+            "employer": "GAIA",
+            "role": "Communication Specialist",
+            "period": "Aug. 2025 - Mar. 2026",
+            "location": "Brussels",
+            "description1": "Responsible for developing and implementing communication and marketing strategies, with a focus on highly impactful campaigns.",
+            "description2": "On average, 8 campaigns and 40 designs per quarter, including print materials and corporate identity assets.",
+            "description3": "Analyzing marketing results and translating insights into creative concepts that enhanced GAIA’s visibility and brand recognition.",
+            "description4": "Combining strategic thinking with strong visual design to maximize campaign effectiveness."
+        },
+        "freelance2": {
+            "employer": "Freelance",
+            "role": "Brand Designer",
+            "period": "Feb. 2020 - Jul. 2025",
+            "location": "Brussels",
+            "description": "I created visual content for over 20 clients, crafting logos, brochures, and websites that enhanced brand recognition and engagement. I delivered strategic brand advice and digital solutions, driving a 85% increase in customer engagement for one client through optimized digital marketing."
+        },
+        "kuleuven": {
+            "employer": "KU Leuven",
+            "role": "Communication Designer",
+            "period": "May 2023 - Jan. 2025",
+            "location": "Leuven",
+            "description": "I collaborated with the Department of Cultural Studies to design comprehensive research dossiers on artistic heritage. I developed additional web-based data visualizations, leveraging front-end languages to deliver a clear and engaging UI/UX. Commissioned by the Flemish government, I contributed to shaping major policy decisions."
+        },
+        "vanmoof": {
+            "employer": "VanMoof",
+            "role": "Product Designer",
+            "period": "Nov. 2022 - Apr. 2023",
+            "location": "Amsterdam",
+            "description": "During my 6-month internship, I worked on improving e-bike designs through prototyping and 3D modeling. I helped test components like motors and batteries, and contributed to making the frames more comfortable to use. Assisted in creating 3 working prototypes that were used in the development of new bike models."
+        },
+        "freelance1": {
+            "employer": "Freelance",
+            "role": "Graphic Designer",
+            "period": "Nov. 2020 - Oct. 2022",
+            "location": "Brussels",
+            "description": "I worked on over 30 projects for small businesses and start-ups, creating visual identities and campaign materials that strengthened brand presence and communication. I independently managed client relationships, project planning, revisions, and final delivery, ensuring efficient collaboration and high-quality results across multiple projects."
+        },
+        "intro4": "Based in <em>❦ Brussels</em>, I've worked on a variety of design projects, including as a freelance designer and collaborator with clients across multiple disciplines.",
+        "intro5": "My background includes creating impactful visual and digital content, advising on strategic branding, and delivering user&#x2011;centric design solutions.",
+        "intro6": "Outside of work, I enjoy exploring the city and spending time immersed in creative pursuits."
+    },
+    "skills": {
+        "title": "capabilities & skillset",
+        "card1": {
+            "title": "Design Strategy",
+            "description1": "I collaborate with clients to develop a clear vision for their brand and projects.",
+            "description2": "By aligning goals early on, I lay the foundation for powerful, strategically grounded designs that resonate with the audience."
+        },
+        "card2": {
+            "title": "Core values",
+            "description1": "Team Player",
+            "description2": "No solo acts.",
+            "description3": "Analytical creative",
+            "description4": "No decorative fluff. Every design must solve a problem. Period.",
+            "description5": "Goal-oriented",
+            "description6": "I start with 'why' and ensure every detail contributes to the end goal.",
+            "description7": "Innovative and original",
+            "description8": "I dig deep for broad societal impact.",
+            "description9": "Big-picture",
+            "description10": "No tunnel vision. Does our approach fit the strategy, the market, and the future?",
+            "description11": "Sustainable",
+            "description12": "Beautiful isn’t enough. It must also be responsible. Think: materials, longevity, and impact."
+        },
+        "card3": {
+            "title": "Skills",
+            "description1": "Design",
+            "description2": "Illustrator, Photoshop, InDesign, After Effects",
+            "description3": "3D & Prototyping",
+            "description4": "Figma, Protopie, Cinema4D, Unreal Engine, Spline, Rive",
+            "description5": "Expertise",
+            "description6": "UI/UX Design, Branding & Identity, 3D Design, Motion Graphics",
+            "description7": "Coding",
+            "description8": "HTML, CSS, JavaScript, Python"
+        },
+        "card4": {
+            "title": "Languages",
+            "description1": "Native:",
+            "description2": "Dutch & French",
+            "description3": "Fluent:",
+            "description4": "English"
+        }
+    },
+    "articles": {
+        "title": "articles & essays",
+        "link": "Read Article",
+        "card1": {
+            "title": "Think different",
+            "description": "Design as systems rather than outputs."
+        },
+        "card2": {
+            "title": "Datastories",
+            "description": "A datatool for road safety."
+        },
+        "card3": {
+            "title": "Flags of Tomorrow",
+            "description": "My master's thesis about vexillography."
+        },
+        "card4": {
+            "title": "Out of sight",
+            "description": "My bachelor's thesis about tactile design."
+        },
+        "card5": {
+            "title": "Look Up",
+            "description": "A Generative Timelapse of the Sky."
+        }
+    },
+    "artifacts": {
+        "title": "artifacts from the archives",
+        "card7": {
+            "description": "A rendition of a book cover for Dear Data by Giorgia Lupi and Stefanie Posavec, showing a rather abstract data visualization I made."
+        },
+        "card6": {
+            "description": "A data visualization I created to explore Swiss design principles and grid structures."
+        },
+        "card5": {
+            "description": "A poster design for a fictional gallery exhibition, drawing inspiration from Ukiyo-e woodblock prints."
+        },
+        "card4": {
+            "description": "A custom book cover I designed for Black Holes by Brian Cox and Jeff Forshaw."
+        },
+        "card3": {
+            "description": "A mailer meant to catch the eye of a discerning audience. Designed with a sense of refinement."
+        },
+        "card2": {
+            "description": "Once in a while, I'll draw something. It seems to make people happy.",
+            "link": "See more"
+        },
+        "card1": {
+            "description": "An album cover I put together, trying to match the mood of the music with some creative flair."
+        }
+    },
+    "footer": {
+        "title": "Let's talk design and ideas—who knows where it might lead?",
+        "contact": "Get in Touch",
+        "copyright": "© 2026. Made by me.",
+        "reservation": "All rights reserved."
+    },
+    "caseStudy": {
+        "vanDender": {
+            "title": "van dender",
+            "year": "2026",
+            "subtitle1": "the client",
+            "paragraph1": "Some brands don’t need reinvention. They need to return to their roots. Van Dender was one of those cases. The house already carried weight: heritage, craft, recognition, and a particular Belgian mix of seriousness and indulgence.",
+            "paragraph2": "But the identity had started to drift. The logo felt dated. The visual language was uneven. Certain elements still had charm on packaging or in-store, yet lost their presence the moment they appeared online, reduced on a phone screen, or placed next to sharper, more contemporary competitors.",
+            "paragraph3": "So the work began there. Not with disruption, with calibration.",
+            "subtitle2": "identity",
+            "paragraph4": "In collaboration with their team I reworked the identity around what was already true about the brand refinement: their outspoken legacy. A kind of quiet confidence that did not need embellishment. The outdated logo was replaced with a custom wordmark, drawn to feel more precise and more composed, while still keeping a classic rhythm in the letterforms. Not nostalgic. Not cold either. Just clearer, stronger, better balanced.",
+            "subtitle3": "color",
+            "paragraph5": "The color palette had to evolve too. We didn’t want to rely on tones that felt generic or overly decorative, and instead extensively researched 19th-century color symbolism, retracing early, forgotten trends. This led to the development of a rich combination of deep cocoa and muted burgundy, supported by restrained neutrals, to give the brand more depth and more consistency across print, packaging, and digital use. It immediately felt closer to the product itself. More grounded. More appetizing, oddly enough, without trying too hard.",
+            "subtitle4": "an insight",
+            "paragraph6": "An insight stayed with me. Luxury in this case did not come from adding detail, it came from deciding what to leave alone. That changed the direction of the work. I didn’t want to push the identity toward something loud or attention-grabbing. I focused on making every element feel deliberate, calm, usable, and enriched.",
+            "subtitle5": "in the details",
+            "paragraph7": "There was also a mildly ridiculous moment during the process, and I still remember it. We were comparing versions of the wordmark at a very zoomed-in scale, discussing line thickness with complete seriousness, when someone said it looked “too aristocratic” and we all had to stop because, honestly, how do you measure that when you’re zoomed in that far.",
+            "paragraph8": "Still, that level of care was the point.",
+            "subtitle6": "outcome",
+            "paragraph9": "The final identity gives Van Dender a cleaner and more lasting foundation: a custom wordmark, a refined palette, a redrawn heraldic element, and a system built to hold together across shelf and screen. Elegant, yes. But more importantly, coherent.",
+            "paragraph10": "The tradition was already there.",
+            "paragraph11": "My role was to make it visible again."
+        },
+        "kuLeuven": {
+            "title": "leuven university",
+            "year": "2025",
+            "subtitle1": "my role",
+            "paragraph1": "The Catholic University of Leuven is a prominent research university in the city of Leuven, known for its cutting-edge research and sustainable initiatives. Their department of cultural studies was tasked with leading a major research project concerning the state of art heritage in Flanders.",
+            "paragraph2": "I was brought in as Lead UX / UI designer to help the department design two web-based data visualisations and a finalized research dossier.",
+            "subtitle2": "objectives",
+            "paragraph3": "The initial objectives included recognizing the importance of art heritage, leading efforts in Flanders, addressing the lack of resources, and increasing practical support and storage space. It emphasizes the value of decentralized approaches, inclusivity, time and resource valorization, effective coordination, a general reference framework, and filling gaps in services and facilities.",
+            "paragraph4": "In order to help the Flemish government more intuitively understand the relations and interactions between all art heritage organizations active in Flanders, one or more visualization tools needed to be designed.",
+            "subtitle3": "development",
+            "paragraph5": "We focused on using a robust design system to create two intuitive interfaces that effectively convey the relationships between heritage organizations in Flanders.",
+            "paragraph6": "One interface was needed to visualize the groups that formed between organizations. Some organizations had a specific focus on a discipline, while others had more than one.",
+            "paragraph7": "A second interface was made to visualize the relations between organizations, shown with nodes and connecting lines.",
+            "subtitle4": "print design",
+            "paragraph8": "The finalized dossier combined clear, professional visuals with a cohesive design system, using a refined color palette and typography for readability. Supporting graphs highlighted key findings, making complex data accessible for stakeholders and enhancing the report's impact.",
+            "paragraph9": "A thorough design system was used to create a clean and professional document, with a visual identity made of a distinct colorpalette and typeface. Several graphs were made to support the findings in the finalized dossier.",
+            "subtitle5": "conclusion - feedback",
+            "paragraph10": "The project culminated in the successful delivery of two highly interactive and visually appealing tools that were well-received by the Department of Cultural Studies and other stakeholders.",
+            "paragraph11": "The interactive map and network visualization provided a clear and comprehensive overview of the art heritage landscape in Flanders, facilitating more informed decision-making by the Flemish government.",
+            "paragraph12": "The tools are now being used to inform policy decisions, prioritize funding allocations, and develop strategies for improving the preservation and accessibility of art heritage across the region. Additionally, the research dossier we compiled provided a solid foundation for future initiatives, with actionable recommendations that are already being implemented.",
+            "paragraph13": "Overall, this project demonstrated the power of well-designed data visualization in shaping cultural heritage policy and underscored the importance of interdisciplinary collaboration in achieving impactful outcomes."
+        },
+        "verbeekInterieur": {
+            "title": "verbeek interieur",
+            "year": "2022",
+            "subtitle1": "the client",
+            "paragraph1": "As a graphic designer I always start by diving deep into my client's story. For Verbeek Interieur, a local carpenter near Leuven, I wanted to understand not only their work but also their values and aesthetic.",
+            "paragraph2": "Through discussions with the owner, I learned that Verbeek's work emphasizes precision, craftsmanship, and a commitment to quality materials, often with a clean, modern style. This information formed the foundation for my design choices.",
+            "subtitle2": "research",
+            "paragraph3": "I began with some research on other brands in the carpentry and interior design sector, aiming to see trends, color schemes, and typographical styles.",
+            "paragraph4": "For Verbeek, I noted that many carpentry brands utilize earthy tones and classic, bold fonts to emphasize craftsmanship and strength. I also looked at various iconic symbols of carpentry, such as tools or wood patterns, to get ideas on integrating subtle thematic elements.",
+            "subtitle3": "ideation",
+            "paragraph5": "With a sketchpad in hand, I explored various forms, letters, and symbols that could represent Verbeek's identity. My focus was on creating a logo that felt both modern and grounded in tradition.",
+            "paragraph6": "I played with “V” shapes and incorporated elements resembling wood grain and triangular shapes that could hint at structural stability—an essential element in carpentry. I also experimented with incorporating a small symbol above the \"V\" to add a unique twist, making it feel almost like a piece of crafted wood.",
+            "subtitle4": "digital drafting",
+            "paragraph7": "After sketching, I moved to Illustrator, where I started digitizing the most promising concepts. Here, I worked on refining the lines, adjusting proportions, and experimenting with different typefaces that would align with the logo mark. The \"V\" mark emerged as a prominent element, representing Verbeek's focus on interior structures and craftsmanship.",
+            "paragraph8": "I explored color schemes, testing how the logo would look in both black-and-white and color. Since Verbeek's brand is rooted in quality craftsmanship, I tested monochromatic variations to ensure that the logo could stand alone without losing impact. Eventually, I settled on variations in black and red-orange, which would convey both a sense of strength and creativity.",
+            "subtitle5": "prototyping",
+            "paragraph9": "I created multiple versions, including a brand mark, a horizontal logo, and a few alternative layouts to ensure flexibility across different platforms.",
+            "paragraph10": "I designed black-and-white, inverted, and color versions, ensuring versatility for various applications—whether it be business cards, social media, or signage.",
+            "paragraph11": "I also developed a vertical brand mark that could stand alone, ideal for smaller placements.",
+            "subtitle6": "presentation",
+            "paragraph12": "After finalizing several options, I presented them to the client with mockups, allowing them to see the logo in context—on signage, stationery, and even digital platforms. I explained the meaning behind each element, especially the bold, structured “V,” which subtly conveys both strength and craftsmanship.",
+            "paragraph13": "The client appreciated the versatility and the way the design managed to be modern yet timeless, reflecting their own approach to carpentry.",
+            "subtitle7": "creating brand guidelines",
+            "paragraph14": "To ensure consistency, I created a logo manual for Verbeek, detailing usage guidelines. This included information on logo spacing, minimum sizes, color codes, and examples of correct and incorrect logo usage. The manual also covered alternative logos for digital and print to ensure that the brand identity remained strong across all media.",
+            "subtitle8": "delivery",
+            "paragraph15": "Finally, I exported the logo files in various formats, including .ai, .svg, and .png, and organized them into labeled folders for easy access.",
+            "paragraph16": "I delivered files in both RGB for digital use and CMYK for print to maintain color fidelity across different applications. The full package included the logo manual, main logo variations, and individual brand marks for Verbeek's future branding needs.",
+            "paragraph17": "This project was an great experience, combining modern design with traditional values to create a unique visual identity for Verbeek Interieur that represents their craftsmanship and quality."
+        },
+        "bruxellesMaBelle": {
+            "title": "bruxelles ma belle",
+            "year": "2024",
+            "subtitle1": "the brief",
+            "paragraph1": "I was approached by the Catholic Church of Brussels to design the visual identity for their new podcast series titled: Bruxelles ma belle - verhalen van hoop uit de hoofdstad (Brussels, my beautiful - stories of hope from the capital). The podcast highlights stories of hope taking place in Brussels. The visual design needed to reflect the project's uplifting theme while being adaptable for digital platforms like their website and podcast services.",
+            "paragraph2": "After receiving the brief, I proposed a meeting to discuss their needs in detail. My contact emphasized the urgency of the project, aiming for a launch before Christmas.",
+            "subtitle2": "concept development",
+            "paragraph3": "To develop the visual identity, I began by immersing myself in the city of Brussels, drawing inspiration from its vibrant culture, iconic architecture, and rich color palette. Sketchbook in hand, I explored various neighborhoods, capturing impressions of the city's unique energy and diversity. These initial sketches formed the foundation of my creative exploration.",
+            "paragraph4": "The search for a visual language was guided by the need to balance hopefulness with sophistication. Using Adobe Illustrator, I refined my initial ideas into digital concepts, experimenting with forms, typography, and color schemes. The goal was to create a design that resonated emotionally while being clear and functional. The map of Brussels became a recurring motif, symbolizing connection and community.",
+            "subtitle3": "finished result",
+            "paragraph5": "Following the sketches, I started focussing on two different designs. The first design was a modern, minimalistic approach featuring a white heart shape reflecting the Brussels map. This was paired with bold typography in pink and a gradient background transitioning from yellow to orange. The second design was a dynamic typographic design integrating subtle cross shapes into the negative space. This version conveyed playfulness while maintaining a professional tone. Both designs utilized a friendly typeface and colors inspired by the organization's existing branding, ensuring consistency and freshness.",
+            "subtitle4": "feedback and revisions",
+            "paragraph6": "Following a team review, version 1 was selected. A minor tweak was requested, however, removing a period after the title. The updated design was delivered promptly. Mockups were also provided to demonstrate how the design would look across digital platforms. The deliverables include two initial design concepts, a finalized visual identity for \"Bruxelles ma belle\", and platform-specific mockups optimized for digital use.",
+            "subtitle5": "outcome and reflection",
+            "paragraph7": "The Catholic Church of Brussels was highly satisfied with the final result, describing it as inviting, youthful, and heartfelt. This project demonstrated the value of clear communication, rapid iteration, and aligning design choices with the client's mission. It also reinforced my commitment to using design to make a positive impact."
+        }
+    }
+}
