@@ -1,79 +1,94 @@
 .language-switcher {
+    font-size: var(--fs-small);
+    font-weight: var(--fw-light);
+}
+
+.language-switcher {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
-    background-color: var(--clr-mono-90);
-    border-radius: 1rem;
-    padding: 0.7rem;
-    overflow: hidden;
-
-    opacity: 0.5;
-    transition:
-        opacity 0.15s ease,
-        transform 0.15s ease,
-        padding 0.25s ease,
-        background-color 0.25s ease;
-}
-
-.language-switcher:hover,
-.language-switcher.open {
-    opacity: 1;
-}
-
-.language-switcher:has(.language-toggle:active) {
-    transform: scale(0.96);
+    display: inline-block;
 }
 
 .language-toggle {
-    background: none;
-    border: none;
-    font: inherit;
-    cursor: pointer;
-    color: inherit;
-    padding: 0.25rem;
-    margin: 0;
-
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 0.45rem;
+
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 0.9rem;
+    min-width: 7rem;
+
+    font: inherit;
+    color: inherit;
+    text-align: left;
+    cursor: pointer;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.15s ease,
+        opacity 0.15s ease,
+        background-color 0.15s ease;
+}
+
+.language-toggle:hover,
+.language-switcher.open .language-toggle {
+    opacity: 1;
+}
+
+.language-toggle:active {
+    transform: scale(0.97);
+}
+
+.language-current {
+    display: inline-block;
+    text-align: left;
+    white-space: nowrap;
 }
 
 .language-menu {
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    padding: 0.4rem 0;
+
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
 
-    width: 100%;
-    max-height: 0;
-    opacity: 0;
+    min-width: 100%;
+    background: var(--clr-mono-90);
+    border-radius: 20px;
     overflow: hidden;
+
+    opacity: 0;
+    transform: translateY(-6px);
     pointer-events: none;
 
-    padding-top: 0;
     transition:
-        max-height 0.35s ease,
         opacity 0.2s ease,
-        padding-top 0.25s ease;
+        transform 0.2s ease;
 }
 
 .language-menu a {
-    display: block;
     width: 100%;
-    text-align: right;
-    padding: 0.3rem 0;
-    font-size: var(--fs-small);
-    font-weight: var(--fw-light);
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.45rem;
+    padding: 0.35rem 0.9rem;
+
+    text-align: left;
     text-decoration: none;
     color: inherit;
     white-space: nowrap;
 
     opacity: 0;
-    transform: translateY(-6px);
+    transform: translateY(-4px);
     transition:
         opacity 0.2s ease,
-        transform 0.35s ease,
+        transform 0.2s ease,
+        background-color 0.15s ease,
         color 0.15s ease;
 }
 
@@ -81,10 +96,13 @@
     color: var(--clr-accent);
 }
 
+.language-menu a:hover img {
+    filter: brightness(0) saturate(100%) invert(56%) sepia(56%) saturate(1363%) hue-rotate(312deg) brightness(105%) contrast(77%);
+}
+
 .language-switcher.open .language-menu {
-    max-height: 10rem;
     opacity: 1;
-    padding-top: 0.5rem;
+    transform: translateY(0);
     pointer-events: auto;
 }
 
@@ -94,7 +112,77 @@
 }
 
 .language-switcher img {
-    opacity: 0.8;
+    flex: 0 0 auto;
+    display: block;
+    width: 0.7rem;
+}
+
+/* HEADER */
+
+header .language-toggle {
+    background-color: var(--clr-mono-90);
+    opacity: 0.5;
+}
+
+header .language-menu  {
+    top: calc(100% + 0.3rem);
+}
+
+/* POPDOWN MENU */
+
+.popdown-menu .language-toggle {
+    background-color: rgba(
+        var(--bg-color),
+        var(--bg-color),
+        var(--bg-color),
+        0.7
+    );
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
+}
+
+.popdown-menu .language-menu {
+    top: calc(100% + 0.6rem);
+    background-color: rgb(244, 244, 244, 0.98);
+    border-radius: 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* DROPDOWN MENU */
+
+.dropdown-language-switcher {
+    margin: 0 5px;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3rem;
+
+    padding: 0.9rem 0;
+    min-width: 7rem;
+
+    font-size: var(--fs-base);
+    font-weight: var(--fw-book);
+}
+
+.dropdown-language-switcher a {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.45rem;
+    padding: 0.35rem 0.9rem;
+
+    text-align: left;
+}
+
+.dropdown-language-switcher a:first-child {
+    color: #808080;
+}
+
+.dropdown-language-switcher img {
+    flex: 0 0 auto;
     display: block;
     width: 0.9rem;
 }

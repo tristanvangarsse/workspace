@@ -10,6 +10,20 @@
         "artifacts": "Artefacten",
         "contact": "Contact"
     },
+    "langSwitcher": {
+        "label": "Selecteer taal",
+        "current": "Nederlands",
+        "option1": {
+            "code": "en",
+            "label": "English",
+            "href": "../en/"
+        },
+        "option2": {
+            "code": "fr",
+            "label": "Français",
+            "href": "../fr/"
+        }
+    },
     "contactInfo": {
         "email": "vangarsse.tristan@gmail.com",
         "telephone": "+32(0)4831 46818"
@@ -293,6 +307,73 @@
             "paragraph9": "De uiteindelijke identiteit geeft Van Dender een heldere en duurzame basis: een custom woordmerk, een verfijnd palet en een consistent systeem over alle toepassingen.",
             "paragraph10": "De traditie was er al.",
             "paragraph11": "Mijn rol was om ze opnieuw zichtbaar te maken."
+        },
+        "kuLeuven": {
+            "title": "universiteit leuven",
+            "year": "2025",
+            "subtitle1": "mijn rol",
+            "paragraph1": "De Katholieke Universiteit Leuven is een toonaangevende onderzoeksuniversiteit in de stad Leuven, bekend om haar baanbrekend onderzoek en duurzame initiatieven. Hun afdeling culturele studies kreeg de opdracht om een groot onderzoeksproject te leiden rond de staat van het kunsterfgoed in Vlaanderen.",
+            "paragraph2": "Ik werd ingeschakeld als Lead UX/UI designer om de afdeling te helpen bij het ontwerpen van twee webgebaseerde datavisualisaties en een finaal onderzoeksdossier.",
+            "subtitle2": "doelstellingen",
+            "paragraph3": "De initiële doelstellingen omvatten het erkennen van het belang van kunsterfgoed, het nemen van een voortrekkersrol in Vlaanderen, het aanpakken van een gebrek aan middelen en het vergroten van praktische ondersteuning en opslagruimte. Het benadrukt de waarde van gedecentraliseerde benaderingen, inclusiviteit, waardering van tijd en middelen, effectieve coördinatie, een algemeen referentiekader en het opvullen van hiaten in diensten en infrastructuur.",
+            "paragraph4": "Om de Vlaamse overheid intuïtiever inzicht te geven in de relaties en interacties tussen alle kunsterfgoedorganisaties in Vlaanderen, moesten één of meerdere visualisatietools worden ontworpen.",
+            "subtitle3": "ontwikkeling",
+            "paragraph5": "We focusten op een robuust design system om twee intuïtieve interfaces te creëren die de relaties tussen erfgoedorganisaties in Vlaanderen duidelijk weergeven.",
+            "paragraph6": "Eén interface visualiseerde de groepen die ontstonden tussen organisaties. Sommige organisaties hadden een specifieke focus op één discipline, terwijl andere meerdere domeinen combineerden.",
+            "paragraph7": "Een tweede interface werd ontwikkeld om de relaties tussen organisaties te tonen, weergegeven met nodes en verbindingslijnen.",
+            "subtitle4": "printontwerp",
+            "paragraph8": "Het finale dossier combineerde heldere, professionele visuals met een coherent design system, met een verfijnd kleurenpalet en typografie voor leesbaarheid. Ondersteunende grafieken benadrukten de belangrijkste bevindingen en maakten complexe data toegankelijk voor stakeholders, wat de impact van het rapport vergrootte.",
+            "paragraph9": "Een uitgebreid design system werd gebruikt om een helder en professioneel document te creëren, met een visuele identiteit opgebouwd rond een distinct kleurenpalet en lettertype. Verschillende grafieken ondersteunden de bevindingen in het dossier.",
+            "subtitle5": "conclusie - feedback",
+            "paragraph10": "Het project resulteerde in de succesvolle oplevering van twee sterk interactieve en visueel aantrekkelijke tools die positief werden onthaald door de afdeling culturele studies en andere stakeholders.",
+            "paragraph11": "De interactieve kaart en netwerkvisualisatie boden een duidelijk en volledig overzicht van het kunsterfgoedlandschap in Vlaanderen, wat meer onderbouwde besluitvorming door de Vlaamse overheid mogelijk maakte.",
+            "paragraph12": "De tools worden nu gebruikt om beleidsbeslissingen te ondersteunen, financiering te prioriteren en strategieën te ontwikkelen voor het verbeteren van de bewaring en toegankelijkheid van kunsterfgoed in de regio. Daarnaast bood het onderzoeksdossier een sterke basis voor toekomstige initiatieven, met concrete aanbevelingen die al worden toegepast.",
+            "paragraph13": "Dit project toonde de kracht van goed ontworpen datavisualisatie in het vormgeven van erfgoedbeleid en onderstreepte het belang van interdisciplinaire samenwerking voor impactvolle resultaten."
+        },
+        "verbeekInterieur": {
+            "title": "verbeek interieur",
+            "year": "2022",
+            "subtitle1": "de klant",
+            "paragraph1": "Als grafisch ontwerper begin ik altijd met me grondig te verdiepen in het verhaal van mijn klant. Voor Verbeek Interieur, een lokale schrijnwerker nabij Leuven, wilde ik niet alleen hun werk begrijpen, maar ook hun waarden en esthetiek.",
+            "paragraph2": "Door gesprekken met de eigenaar leerde ik dat het werk van Verbeek draait om precisie, vakmanschap en een sterke focus op kwaliteitsvolle materialen, vaak met een strakke, moderne stijl. Deze inzichten vormden de basis voor mijn ontwerpkeuzes.",
+            "subtitle2": "onderzoek",
+            "paragraph3": "Ik startte met onderzoek naar andere merken binnen de schrijnwerk- en interieursector, met als doel trends, kleurgebruik en typografische stijlen in kaart te brengen.",
+            "paragraph4": "Bij Verbeek merkte ik dat veel schrijnwerkmerken aardse tinten en klassieke, krachtige lettertypes gebruiken om vakmanschap en sterkte te benadrukken. Ik onderzocht ook iconische symbolen uit het vak, zoals gereedschap of houtstructuren, om ideeën te krijgen voor subtiele thematische elementen.",
+            "subtitle3": "conceptontwikkeling",
+            "paragraph5": "Met een schetsboek in de hand verkende ik verschillende vormen, letters en symbolen die de identiteit van Verbeek konden vertegenwoordigen. Mijn focus lag op het creëren van een logo dat zowel modern aanvoelt als geworteld is in traditie.",
+            "paragraph6": "Ik experimenteerde met “V”-vormen en verwerkte elementen die doen denken aan houtnerf en driehoekige vormen die kunnen verwijzen naar structurele stabiliteit—een essentieel aspect in het schrijnwerk. Daarnaast probeerde ik een klein symbool boven de \"V\" te integreren om een unieke toets toe te voegen, alsof het bijna een stuk bewerkt hout was.",
+            "subtitle4": "digitale uitwerking",
+            "paragraph7": "Na het schetsen schakelde ik over naar Illustrator, waar ik de meest veelbelovende concepten begon te digitaliseren. Hier verfijnde ik de lijnen, paste ik verhoudingen aan en experimenteerde ik met verschillende lettertypes die aansloten bij het beeldmerk. De \"V\" groeide uit tot een centraal element dat Verbeeks focus op interieurstructuren en vakmanschap weerspiegelt.",
+            "paragraph8": "Ik onderzocht verschillende kleurenschema’s en testte hoe het logo eruitzag in zwart-wit en in kleur. Omdat het merk van Verbeek geworteld is in kwalitatief vakmanschap, testte ik ook monochrome varianten om te garanderen dat het logo op zichzelf kon staan zonder impact te verliezen. Uiteindelijk koos ik voor variaties in zwart en roodoranje, die zowel kracht als creativiteit uitstralen.",
+            "subtitle5": "prototyping",
+            "paragraph9": "Ik ontwikkelde meerdere versies, waaronder een beeldmerk, een horizontaal logo en enkele alternatieve layouts om flexibiliteit over verschillende toepassingen te garanderen.",
+            "paragraph10": "Ik ontwierp zwart-wit-, geïnverteerde en kleurvarianten, zodat het logo veelzijdig inzetbaar was—van visitekaartjes en sociale media tot signalisatie.",
+            "paragraph11": "Daarnaast werkte ik ook een verticaal beeldmerk uit dat zelfstandig kan functioneren, ideaal voor kleinere toepassingen.",
+            "subtitle6": "presentatie",
+            "paragraph12": "Na het finaliseren van verschillende opties presenteerde ik deze aan de klant met mock-ups, zodat zij het logo in context konden zien—op signalisatie, drukwerk en digitale platformen. Ik lichtte de betekenis van elk element toe, in het bijzonder de krachtige, gestructureerde “V”, die subtiel zowel sterkte als vakmanschap uitstraalt.",
+            "paragraph13": "De klant waardeerde de veelzijdigheid en de manier waarop het ontwerp zowel modern als tijdloos aanvoelt, wat hun eigen aanpak in het schrijnwerk weerspiegelt.",
+            "subtitle7": "brand guidelines",
+            "paragraph14": "Om consistentie te waarborgen, stelde ik een logo manual op voor Verbeek met duidelijke richtlijnen voor gebruik. Dit omvatte informatie over witruimte, minimale groottes, kleurcodes en voorbeelden van correct en incorrect gebruik. Ook alternatieve logo’s voor digitale en printtoepassingen werden opgenomen om de merkidentiteit overal sterk te houden.",
+            "subtitle8": "oplevering",
+            "paragraph15": "Tot slot exporteerde ik de logo’s in verschillende formaten, waaronder .ai, .svg en .png, en organiseerde ik ze in overzichtelijke mappen voor eenvoudig gebruik.",
+            "paragraph16": "Ik leverde bestanden aan in zowel RGB voor digitale toepassingen als CMYK voor print, zodat kleurconsistentie behouden bleef. Het volledige pakket bevatte de logo manual, hoofdvarianten van het logo en afzonderlijke beeldmerken voor toekomstige toepassingen.",
+            "paragraph17": "Dit project was een zeer waardevolle ervaring, waarin modern design en traditionele waarden samenkwamen tot een unieke visuele identiteit voor Verbeek Interieur die hun vakmanschap en kwaliteit weerspiegelt."
+        },
+        "bruxellesMaBelle": {
+            "title": "bruxelles ma belle",
+            "year": "2024",
+            "subtitle1": "de briefing",
+            "paragraph1": "Ik werd benaderd door de Katholieke Kerk van Brussel om de visuele identiteit te ontwerpen voor hun nieuwe podcastreeks getiteld: Bruxelles ma belle - verhalen van hoop uit de hoofdstad (Brussel, mijn mooie - verhalen van hoop uit de hoofdstad). De podcast belicht verhalen van hoop die zich in Brussel afspelen. Het visuele ontwerp moest het hoopvolle karakter van het project weerspiegelen en tegelijk geschikt zijn voor digitale platformen zoals hun website en podcastdiensten.",
+            "paragraph2": "Na het ontvangen van de briefing stelde ik een meeting voor om hun noden in detail te bespreken. Mijn contactpersoon benadrukte de urgentie van het project, met als doel een lancering vóór Kerstmis.",
+            "subtitle2": "conceptontwikkeling",
+            "paragraph3": "Om de visuele identiteit te ontwikkelen, begon ik me onder te dompelen in de stad Brussel en liet ik me inspireren door haar levendige cultuur, iconische architectuur en rijke kleurenpalet. Met schetsboek in de hand verkende ik verschillende wijken en legde ik indrukken vast van de unieke energie en diversiteit van de stad. Deze eerste schetsen vormden de basis van mijn creatieve exploratie.",
+            "paragraph4": "De zoektocht naar een visuele taal werd gestuurd door de nood om hoop en verfijning in balans te brengen. Met behulp van Adobe Illustrator werkte ik mijn eerste ideeën uit tot digitale concepten, waarbij ik experimenteerde met vormen, typografie en kleurgebruik. Het doel was een ontwerp te creëren dat emotioneel resoneert en tegelijk helder en functioneel blijft. De kaart van Brussel werd een terugkerend motief, als symbool voor verbinding en gemeenschap.",
+            "subtitle3": "eindresultaat",
+            "paragraph5": "Na de schetsfase focuste ik op twee verschillende ontwerpen. Het eerste ontwerp was een moderne, minimalistische benadering met een witte hartvorm gebaseerd op de kaart van Brussel. Dit werd gecombineerd met krachtige typografie in roze en een gradient achtergrond die verloopt van geel naar oranje. Het tweede ontwerp was een dynamisch typografisch concept waarbij subtiele kruisvormen in de negatieve ruimte werden geïntegreerd. Deze versie straalde speelsheid uit, terwijl ze toch professioneel bleef. Beide ontwerpen gebruikten een vriendelijk lettertype en kleuren geïnspireerd op de bestaande branding van de organisatie, wat zorgde voor consistentie en frisheid.",
+            "subtitle4": "feedback en revisies",
+            "paragraph6": "Na een teamreview werd versie 1 gekozen. Er werd een kleine aanpassing gevraagd, namelijk het verwijderen van een punt achter de titel. Het aangepaste ontwerp werd snel opgeleverd. Er werden ook mock-ups voorzien om te tonen hoe het ontwerp eruitziet op verschillende digitale platformen. De oplevering omvatte twee initiële ontwerpconcepten, een afgewerkte visuele identiteit voor \"Bruxelles ma belle\" en platformspecifieke mock-ups geoptimaliseerd voor digitaal gebruik.",
+            "subtitle5": "resultaat en reflectie",
+            "paragraph7": "De Katholieke Kerk van Brussel was zeer tevreden met het eindresultaat en omschreef het als uitnodigend, jeugdig en oprecht. Dit project toonde de waarde van duidelijke communicatie, snelle iteratie en het afstemmen van ontwerpkeuzes op de missie van de klant. Het versterkte ook mijn overtuiging om design in te zetten voor een positieve impact."
         }
     }
 }

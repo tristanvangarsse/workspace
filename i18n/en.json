@@ -10,6 +10,20 @@
         "artifacts": "Artifacts",
         "contact": "Contact"
     },
+    "langSwitcher": {
+        "label": "Select language",
+        "current": "English",
+        "option1": {
+            "code": "nl",
+            "label": "Nederlands",
+            "href": "../nl/"
+        },
+        "option2": {
+            "code": "fr",
+            "label": "Français",
+            "href": "../fr/"
+        }
+    },
     "contactInfo": {
         "email": "vangarsse.tristan@gmail.com",
         "telephone": "+32(0)4831 46818"

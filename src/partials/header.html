@@ -24,41 +24,41 @@
                 type="button"
                 class="language-toggle"
                 aria-expanded="false"
-                aria-label="Select language"
+                aria-label="{{langSwitcher.label}}"
             >
                 <img
-                    src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe.svg"
+                    src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe-neutral-100.svg"
                     alt=""
                 />
+                <span class="language-current">{{langSwitcher.current}}</span>
             </button>
 
             <div class="language-menu">
                 <a
                     draggable="false"
-                    href="../en/"
-                    hreflang="en"
-                    lang="en"
-                    onclick="localStorage.setItem('preferredLanguage', 'en')"
+                    href="{{langSwitcher.option1.href}}"
+                    hreflang="{{langSwitcher.option1.code}}"
+                    lang="{{langSwitcher.option1.code}}"
+                    onclick="localStorage.setItem('preferredLanguage', '{{langSwitcher.option1.code}}')"
                 >
-                    English
+                    <img
+                        src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe-neutral-100.svg"
+                        alt=""
+                    />
+                    {{langSwitcher.option1.label}}
                 </a>
                 <a
                     draggable="false"
-                    href="../nl/"
-                    hreflang="nl"
-                    lang="nl"
-                    onclick="localStorage.setItem('preferredLanguage', 'nl')"
+                    href="{{langSwitcher.option2.href}}"
+                    hreflang="{{langSwitcher.option2.code}}"
+                    lang="{{langSwitcher.option2.code}}"
+                    onclick="localStorage.setItem('preferredLanguage', '{{langSwitcher.option2.code}}')"
                 >
-                    Nederlands
-                </a>
-                <a
-                    draggable="false"
-                    href="../fr/"
-                    hreflang="fr"
-                    lang="fr"
-                    onclick="localStorage.setItem('preferredLanguage', 'fr')"
-                >
-                    Français
+                    <img
+                        src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe-neutral-100.svg"
+                        alt=""
+                    />
+                    {{langSwitcher.option2.label}}
                 </a>
             </div>
         </div>

@@ -13,16 +13,39 @@
     >
     <p class="mobile-menu">{{contactInfo.email}}</p>
     <p class="mobile-menu">{{contactInfo.telephone}}</p>
-    <a
-        draggable="false"
-        class="mobile-lang"
-        href="../nl/"
-        hreflang="nl"
-        onclick="localStorage.setItem('preferredLanguage', 'nl')"
-        >Nederlands<img
+    <div class="mobile-lang dropdown-language-switcher">
+        <a draggable="false">
+            <img
+                src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe-neutral-500.svg"
+                alt=""
+            />
+            {{langSwitcher.current}}
+        </a>
+        <a
             draggable="false"
-            class="lang-arrow-mobile"
-            src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/arrow-right-v2-neutral-100.svg"
-            alt=""
-    /></a>
+            href="{{langSwitcher.option1.href}}"
+            hreflang="{{langSwitcher.option1.code}}"
+            lang="{{langSwitcher.option1.code}}"
+            onclick="localStorage.setItem('preferredLanguage', '{{langSwitcher.option1.code}}')"
+        >
+            <img
+                src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe-neutral-100.svg"
+                alt=""
+            />
+            {{langSwitcher.option1.label}}
+        </a>
+        <a
+            draggable="false"
+            href="{{langSwitcher.option2.href}}"
+            hreflang="{{langSwitcher.option2.code}}"
+            lang="{{langSwitcher.option2.code}}"
+            onclick="localStorage.setItem('preferredLanguage', '{{langSwitcher.option2.code}}')"
+        >
+            <img
+                src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe-neutral-100.svg"
+                alt=""
+            />
+            {{langSwitcher.option2.label}}
+        </a>
+    </div>
 </div>

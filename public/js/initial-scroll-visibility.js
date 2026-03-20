@@ -1,13 +1,28 @@
 let lastState = null;
 let initialized = false;
 
+function closeLanguageMenus() {
+    const switchers = document.querySelectorAll(".language-switcher");
+
+    switchers.forEach((switcher) => {
+        switcher.classList.remove("open");
+
+        const toggle = switcher.querySelector(".language-toggle");
+        if (toggle) {
+            toggle.setAttribute("aria-expanded", "false");
+        }
+    });
+}
+
 function handleScroll() {
     const targetDivs = document.querySelectorAll(".initial-scroll-visibility");
     const scrollDistance = window.scrollY;
-    const isMobile = window.innerWidth < 700;
+    const isMobile = window.innerWidth < 800;
 
     targetDivs.forEach(function (targetDiv) {
         if (isMobile) {
+            closeLanguageMenus();
+
             targetDiv.classList.remove(
                 "not-initialized",
                 "popdown-hide",
@@ -20,7 +35,6 @@ function handleScroll() {
             return;
         }
 
-        // Always run visibility logic — even on first scroll
         if (!initialized) {
             targetDiv.classList.remove("not-initialized");
             initialized = true;
@@ -34,6 +48,8 @@ function handleScroll() {
             targetDiv.classList.add("popdown-show");
             lastState = "shown";
         } else if (!shouldBeShown && lastState !== "hidden") {
+            closeLanguageMenus();
+
             targetDiv.classList.remove("popdown-show", "popdown-hide");
             void targetDiv.offsetWidth;
             targetDiv.classList.add("popdown-hide");
@@ -47,6 +63,6 @@ window.addEventListener("scroll", handleScroll);
 window.addEventListener("resize", handleScroll);
 window.addEventListener("load", () => {
     handleScroll();
-    setTimeout(handleScroll, 100); // For anchor jumps
+    setTimeout(handleScroll, 100);
 });
 window.addEventListener("hashchange", handleScroll);

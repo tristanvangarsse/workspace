@@ -2,9 +2,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 90px 50px 0 50px;
+    padding: 90px 50px 0 calc(20vw - 100px);
     width: 100%;
-    max-width: 1000px;
+    max-width: 1400px;
 }
 
 .header a {
@@ -35,8 +35,8 @@ header nav > *:not(:first-child) {
     margin: 0 0 0 clamp(20px, 2vw, 60px);
 }
 
-header nav > *:last-child {
-    margin-left: 50px;
+header nav .language-switcher {
+    margin-left: 5vw;
 }
 
 header nav > a {
@@ -58,7 +58,7 @@ header nav > a.current-page {
     height: 10px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     header {
         display: none;
     }

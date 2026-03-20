@@ -21,18 +21,49 @@
         <a draggable="false" href="#about-section">{{nav.about}}</a>
         <a draggable="false" href="#artifacts-section">{{nav.artifacts}}</a>
         <a draggable="false" href="#contact-section">{{nav.contact}}</a>
-        <a
-            draggable="false"
-            class="desktop-lang"
-            href="../nl/"
-            hreflang="nl"
-            onclick="localStorage.setItem('preferredLanguage', 'nl')"
-            >NL<img
-                draggable="false"
-                class="lang-arrow"
-                src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/arrow-right-v2-accent.svg"
-                alt=""
-        /></a>
+        <div class="language-switcher">
+            <button
+                type="button"
+                class="language-toggle"
+                aria-expanded="false"
+                aria-label="{{langSwitcher.label}}"
+            >
+                <img
+                    src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe-neutral-100.svg"
+                    alt=""
+                />
+                <span class="language-current">{{langSwitcher.current}}</span>
+            </button>
+
+            <div class="language-menu">
+                <a
+                    draggable="false"
+                    href="{{langSwitcher.option1.href}}"
+                    hreflang="{{langSwitcher.option1.code}}"
+                    lang="{{langSwitcher.option1.code}}"
+                    onclick="localStorage.setItem('preferredLanguage', '{{langSwitcher.option1.code}}')"
+                >
+                    <img
+                        src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe-neutral-100.svg"
+                        alt=""
+                    />
+                    {{langSwitcher.option1.label}}
+                </a>
+                <a
+                    draggable="false"
+                    href="{{langSwitcher.option2.href}}"
+                    hreflang="{{langSwitcher.option2.code}}"
+                    lang="{{langSwitcher.option2.code}}"
+                    onclick="localStorage.setItem('preferredLanguage', '{{langSwitcher.option2.code}}')"
+                >
+                    <img
+                        src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe-neutral-100.svg"
+                        alt=""
+                    />
+                    {{langSwitcher.option2.label}}
+                </a>
+            </div>
+        </div>
         <button id="menu-trigger" class="hamburger-menu">
             <svg width="18" height="18" viewBox="0 0 18 18">
                 <polyline
