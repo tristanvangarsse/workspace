@@ -245,17 +245,19 @@ function build() {
         }
     }
 
-    const rootIndex = `<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=./en/">
-  <title>Redirecting...</title>
-</head>
-<body>
-  <p><a href="./en/">Go to site</a></p>
-</body>
-</html>`;
+    const rootIndex = `
+    <!doctype html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url=./en/">
+    <title>Redirecting...</title>
+    </head>
+    <body>
+    <p><a href="./en/">Go to site</a></p>
+    </body>
+    </html>
+    `;
 
     fs.writeFileSync(path.join(DIST_DIR, "index.html"), rootIndex, "utf8");
     console.log("Built root redirect");
