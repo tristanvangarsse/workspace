@@ -3,7 +3,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .no-scroll {
         overflow: hidden;
         position: fixed;

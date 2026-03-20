@@ -58,7 +58,7 @@ header nav > a.current-page {
     height: 10px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     header {
         display: none;
     }

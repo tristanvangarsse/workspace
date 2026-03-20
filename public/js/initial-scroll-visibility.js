@@ -17,7 +17,7 @@ function closeLanguageMenus() {
 function handleScroll() {
     const targetDivs = document.querySelectorAll(".initial-scroll-visibility");
     const scrollDistance = window.scrollY;
-    const isMobile = window.innerWidth < 800;
+    const isMobile = window.innerWidth < 900;
 
     targetDivs.forEach(function (targetDiv) {
         if (isMobile) {

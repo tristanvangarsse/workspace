@@ -62,7 +62,7 @@
     opacity: 0;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .landing-page-desktop {
         margin-bottom: -100px;
     }

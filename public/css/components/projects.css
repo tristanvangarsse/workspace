@@ -315,7 +315,7 @@
 }
 
 /* target laptop screens */
-@media only screen and (max-height: 800px) and (min-width: 1000px) {
+@media only screen and (max-height: 900px) and (min-width: 1000px) {
     .projects .slideshow {
         width: 140vh;
     }

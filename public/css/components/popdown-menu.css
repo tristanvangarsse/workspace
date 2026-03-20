@@ -5,7 +5,7 @@
     left: 50%;
     transform: translate(-50%, -100px);
     top: 10px;
-    width: clamp(1px, 90vw, 800px);
+    width: clamp(1px, 90vw, 1000px);
     height: 50px;
     display: flex;
     align-items: center;
@@ -78,7 +78,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .popdown-menu {
         height: 50px;
         background-color: rgba(

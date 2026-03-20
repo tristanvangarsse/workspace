@@ -34,9 +34,10 @@
     },
     "projects": {
         "van-dender": {
+            "brandName": "van dender",
             "titleSuffix": "Goddelijke traditie, heruitgevonden",
             "tags": "Rebranding, Merkidentiteit, Digitale strategie",
-            "description": "Van Dender is een traditionele chocolatier, heruitgevonden voor een nieuwe generatie. We vervingen het verouderde logo door een custom woordmerk, verfijnden het kleurenpalet naar diepe cacao- en gedempte bordeauxtinten, en tekenden het wapenschild opnieuw voor digitaal en drukwerk. De identiteit combineert traditie met moderne helderheid: minimalistisch, elegant en ontworpen voor zowel schap als scherm.",
+            "description": "Van Dender is een historisch chocoladehuis, heruitgevonden voor een nieuwe generatie. Het verouderde logo maakte plaats voor een custom woordmerk, het kleurenpalet werd verfijnd naar diepe cacao- en gedempte bordeauxtonen, en het logo kreeg een hertekening voor digitaal en drukwerk. De identiteit verbindt traditie met moderne helderheid: minimalistisch, elegant en geschikt voor zowel verpakkingen als digitale toepassingen.",
             "caseStudyLabel": "Bekijk de case study",
             "alts": {
                 "slide1": "",
@@ -55,6 +56,7 @@
             }
         },
         "kuleuven": {
+            "brandName": "ku leuven",
             "titleSuffix": "Interactieve tools voor het Vlaamse erfgoedlandschap",
             "tags": "Webdesign, Datavisualisatie",
             "description": "Als Communication Designer voor KU Leuven creëerde ik interactieve datavisualisaties om erfgoedorganisaties te analyseren, ze te clusteren per discipline en hun onderlinge verbanden in kaart te brengen. Het werk omvatte ook een gedrukt onderzoeksdossier met aangepaste typografie en grafieken, dat nu door de Vlaamse overheid wordt gebruikt voor beleids- en subsidiebeslissingen.",
@@ -76,6 +78,7 @@
             }
         },
         "mino": {
+            "brandName": "mino.",
             "titleSuffix": "Een culinaire tijdcapsule waar Armeense en Franse tradities samenkomen",
             "tags": "Merkidentiteit, Productdesign",
             "description": "Mino is een culinaire brug tussen de rokerige haarden van Armenië en de verfijnde Franse tafels. Het is een volledig nieuwe high-end eetervaring. Daarom ontwierpen we hun merkidentiteit vanaf nul. Het logo combineert een scriptlettertype met strakke typografie, als weerspiegeling van de balans tussen rustiek en verfijnd. De visuele stijl is geïnspireerd op Armeense steenhouwwerken en warme, rokerige groentinten.",
@@ -94,6 +97,7 @@
             }
         },
         "verbeek": {
+            "brandName": "verbeek interieur",
             "titleSuffix": "Een visuele identiteit voor modern vakmanschap",
             "tags": "Merkidentiteit, Logo-ontwerp",
             "description": "Voor Verbeek Interieur, een schrijnwerker uit de regio Leuven, ontwikkelde ik een visuele identiteit die hun toewijding aan vakmanschap, precisie en moderne esthetiek weerspiegelt. Het resultaat is een tijdloos ontwerp dat kracht en elegantie in balans brengt. De visuele identiteit werd uitgebreid met een volledige set logovariaties, een kleurenpalet gebaseerd op wit en een rijk blauw, en een gedetailleerde brand guide om consistentie te garanderen in zowel drukwerk als digitale media.",
@@ -115,6 +119,8 @@
             }
         },
         "bruxelles-ma-belle": {
+            "brandName": "bruxelles ma belle",
+            "brandName": "bruxelles ma belle",
             "titleSuffix": "Visuele identiteit voor een communitygedreven podcast",
             "tags": "Branding, Digitaal ontwerp, Typografie",
             "description": "Als lead designer creëerde ik een levendige visuele identiteit voor Bruxelles ma belle, een podcast die verhalen van hoop in Brussel viert. Geïnspireerd door de energie van de stad ontwikkelde ik twee verschillende concepten—één met een hartvormige kaart van Brussel en een ander met speelse typografie waarin subtiele kruisvormige motieven zijn verwerkt.",
@@ -128,6 +134,7 @@
             "supportingTexts": {}
         },
         "van-looy": {
+            "brandName": "van looy productions",
             "titleSuffix": "Visuele identiteit voor een topklasse event- en productiepartner",
             "tags": "Merkidentiteit, Logo-ontwerp, Typografie, Brand assets",
             "description": "Van Looy Productions bouwt en ontmantelt grootschalige evenementen; van festivals zoals Tomorrowland, de Gentse Feesten en Rock Werchter tot tourproducties voor internationale artiesten. De uitdaging: een identiteit ontwikkelen die zowel robuust en praktisch aanvoelt, als professioneel genoeg is voor high-end productiewerk en B2B.",
@@ -309,7 +316,7 @@
             "paragraph11": "Mijn rol was om ze opnieuw zichtbaar te maken."
         },
         "kuLeuven": {
-            "title": "universiteit leuven",
+            "title": "ku leuven",
             "year": "2025",
             "subtitle1": "mijn rol",
             "paragraph1": "De Katholieke Universiteit Leuven is een toonaangevende onderzoeksuniversiteit in de stad Leuven, bekend om haar baanbrekend onderzoek en duurzame initiatieven. Hun afdeling culturele studies kreeg de opdracht om een groot onderzoeksproject te leiden rond de staat van het kunsterfgoed in Vlaanderen.",

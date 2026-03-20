@@ -34,6 +34,7 @@
     },
     "projects": {
         "van-dender": {
+            "brandName": "van dender",
             "titleSuffix": "Divine Tradition, Rebranded",
             "tags": "Rebranding, Brand Identity, Digital Strategy",
             "description": "Van Dender is a heritage chocolatier reimagined for a new generation. We replaced the outdated logo with a custom wordmark, refined the color palette to deep cocoa and muted burgundy, and redrew the coat of arms for digital and print. The identity blends tradition with modern clarity: minimal, elegant, and built for both shelf and screen.",
@@ -55,6 +56,7 @@
             }
         },
         "kuleuven": {
+            "brandName": "leuven university",
             "titleSuffix": "Interactive tools for Flanders’ cultural heritage landscape",
             "tags": "Web Design, Data Visualization",
             "description": "As Communication Designer for the KU Leuven, I created interactive data visualizations to analyze cultural heritage organizations, clustering them by discipline and mapping their connections. The work included a printed research dossier with custom typography and graphs, now used by the Flemish government to inform policy and funding decisions.",
@@ -76,6 +78,7 @@
             }
         },
         "mino": {
+            "brandName": "mino.",
             "titleSuffix": "A culinary time capsule where Armenian and French heritage collide",
             "tags": "Brand Identity, Product Design",
             "description": "Mino is a culinary bridge between Armenia’s smoky hearths and French’ refined tables. They are a brand new high-end dining experience. As such, we designed their brand identity from scratch. The logo combines a script font with clean typography, reflecting the balance of rustic and refined. The visuals draw from Armenian stone carvings and warm, smoky green textures.",
@@ -94,6 +97,7 @@
             }
         },
         "verbeek": {
+            "brandName": "verbeek",
             "titleSuffix": "A visual identity for modern craftsmanship",
             "tags": "Brand Identity, Logo Design",
             "description": "For Verbeek Interieur, a carpenter based near Leuven, I developed a visual identity that reflects their dedication to craftsmanship, precision, and modern aesthetics. The result is a timeless design that balances strength and elegance. The visual identity was expanded through a full set of logo variations, a color palette rooted in white and a rich blue, and a detailed brand guide to ensure consistency across print and digital media.",
@@ -115,6 +119,7 @@
             }
         },
         "bruxelles-ma-belle": {
+            "brandName": "bruxelles ma belle",
             "titleSuffix": "Visual identity for a community-driven podcast",
             "tags": "Branding, Digital Design, Typography",
             "description": "As the lead designer, I created a vibrant visual identity for Bruxelles ma belle, a podcast celebrating stories of hope in Brussels. Inspired by the city’s energy, I developed two distinct concepts—one featuring a heart-shaped Brussels map and another with playful typography integrating subtle cross motifs.",
@@ -128,6 +133,7 @@
             "supportingTexts": {}
         },
         "van-looy": {
+            "brandName": "van looy productions",
             "titleSuffix": "Visual identity for a top-tier event and production partner",
             "tags": "Brand identity, Logo design, Typography, Brand assets",
             "description": "Van Looy Productions builds and dismantles large-scale events; from festivals like Tomorrowland, the Ghent Festivities, and Rock Werchter to tour productions for international artists. The challenge: develop an identity that feels both tough and practical, while also professional enough for high-stakes production work and B2B.",

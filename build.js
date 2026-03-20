@@ -153,6 +153,7 @@ function mergeProjects(sharedProjects, translatedProjectsBySlug) {
         return {
             ...project,
 
+            brandName: translated.brandName || "",
             titleSuffix: translated.titleSuffix || "",
             tags: translated.tags || "",
             description: translated.description || "",

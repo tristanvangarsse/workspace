@@ -34,6 +34,7 @@
     },
     "projects": {
         "van-dender": {
+            "brandName": "van dender",
             "titleSuffix": "Tradition divine, réinventée",
             "tags": "Rebranding, Identité de marque, Stratégie digitale",
             "description": "Van Dender est un chocolatier de tradition réinventé pour une nouvelle génération. Nous avons remplacé l’ancien logo par un logotype sur mesure, affiné la palette de couleurs vers des tons cacao profonds et bordeaux atténué, et redessiné le blason pour le digital et l’impression. L’identité mêle tradition et clarté moderne&#8239;: minimale, élégante, et pensée pour l’étagère comme pour l’écran.",
@@ -55,6 +56,7 @@
             }
         },
         "kuleuven": {
+            "brandName": "Université de Louvain",
             "titleSuffix": "Outils interactifs pour le paysage du patrimoine culturel en Flandre",
             "tags": "Web design, Visualisation de données",
             "description": "En tant que designer en communication pour la KU Leuven, j’ai créé des visualisations de données interactives pour analyser les organisations du patrimoine culturel, en les regroupant par discipline et en cartographiant leurs connexions. Le travail comprenait un dossier de recherche imprimé avec une typographie et des graphiques sur mesure, aujourd’hui utilisé par le gouvernement flamand pour orienter les décisions politiques et le financement.",
@@ -76,6 +78,7 @@
             }
         },
         "mino": {
+            "brandName": "mino.",
             "titleSuffix": "Une capsule culinaire où se rencontrent les héritages arménien et français",
             "tags": "Identité de marque, Design produit",
             "description": "Mino est un pont culinaire entre les foyers fumés de l’Arménie et les tables raffinées françaises. Il s’agit d’une nouvelle expérience gastronomique haut de gamme. Nous avons donc conçu leur identité de marque de A à Z. Le logo combine une typographie script avec une typographie épurée, reflétant l’équilibre entre rustique et raffiné. Les visuels s’inspirent des sculptures sur pierre arméniennes et de textures vertes chaudes et fumées.",
@@ -94,6 +97,7 @@
             }
         },
         "verbeek": {
+            "brandName": "verbeek",
             "titleSuffix": "Une identité visuelle pour l’artisanat moderne",
             "tags": "Identité de marque, Design de logo",
             "description": "Pour Verbeek Interieur, un menuisier basé près de Louvain, j’ai développé une identité visuelle reflétant leur engagement envers le savoir-faire, la précision et une esthétique moderne. Le résultat est un design intemporel qui équilibre force et élégance. L’identité visuelle a été déclinée à travers un ensemble complet de variations de logo, une palette de couleurs ancrée dans le blanc et un bleu profond, ainsi qu’un guide de marque détaillé pour assurer la cohérence sur les supports imprimés et digitaux.",
@@ -115,6 +119,7 @@
             }
         },
         "bruxelles-ma-belle": {
+            "brandName": "bruxelles ma belle",
             "titleSuffix": "Identité visuelle pour un podcast communautaire",
             "tags": "Branding, Design digital, Typographie",
             "description": "En tant que designer principal, j’ai créé une identité visuelle vibrante pour Bruxelles ma belle, un podcast célébrant des histoires d’espoir à Bruxelles. Inspiré par l’énergie de la ville, j’ai développé deux concepts distincts — l’un avec une carte de Bruxelles en forme de cœur, l’autre avec une typographie ludique intégrant des motifs de croix subtils.",
@@ -128,6 +133,7 @@
             "supportingTexts": {}
         },
         "van-looy": {
+            "brandName": "van looy productions",
             "titleSuffix": "Identité visuelle pour un partenaire événementiel et de production haut de gamme",
             "tags": "Identité de marque, Design de logo, Typographie, Assets de marque",
             "description": "Van Looy Productions construit et démonte des événements de grande envergure, des festivals comme Tomorrowland, les Fêtes de Gand et Rock Werchter aux tournées d’artistes internationaux. Le défi&#8239;: développer une identité à la fois robuste et fonctionnelle, tout en étant suffisamment professionnelle pour des productions à enjeux élevés et du B2B.",
