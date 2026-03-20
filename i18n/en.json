@@ -18,376 +18,117 @@
         "descriptionStatic": "I'm a designer with 6 years’ experience in creative strategy, brands, cultural codes, javascript, semiotics, color, gestalt, artificial intelligence, art history, python, critical design, copywriting, grid systems, symbolism, modular design",
         "descriptionDynamic": "I'm&nbsp;a&nbsp;designer&nbsp;with|6&nbsp;years’&nbsp;experience&nbsp;in|creative&nbsp;strategy,&nbsp;brands,|cultural&nbsp;codes,&nbsp;coding|semiotics,&nbsp;color,&nbsp;gestalt,|artificial&nbsp;intelligence,|art&nbsp;history,&nbsp;critical&nbsp;design,|copywriting,&nbsp;grid&nbsp;systems|symbolism,&nbsp;modular&nbsp;design"
     },
-    "projects": [
-        {
-            "slug": "van-dender",
-            "hasSpacer200": true,
-            "containerId": "work-section",
-            "triggerClass": "trigger-1",
-            "slideshowId": "van-dender-section",
-            "brandName": "VAN DENDER",
+    "projects": {
+        "van-dender": {
             "titleSuffix": "Divine Tradition, Rebranded",
             "tags": "Rebranding, Brand Identity, Digital Strategy",
-            "likeId": "project-vandender",
-            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
             "description": "Van Dender is a heritage chocolatier reimagined for a new generation. We replaced the outdated logo with a custom wordmark, refined the color palette to deep cocoa and muted burgundy, and redrew the coat of arms for digital and print. The identity blends tradition with modern clarity: minimal, elegant, and built for both shelf and screen.",
-            "caseStudyHref": "./van-dender/",
             "caseStudyLabel": "Visit the case study",
-            "slides": [
-                {
-                    "activeClass": "active",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_1_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_1.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_2_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_2.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_3_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_3.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_4_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_4.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_5_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_5.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_6_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_6.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_7_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_7.jpg",
-                    "alt": ""
-                }
-            ],
-            "supportingVisuals": [
-                {
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_8_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_8.jpg",
-                    "alt": "",
-                    "text": "Exploratory sketches for Van Dender's brand identity."
-                },
-                {
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_9_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_9.jpg",
-                    "alt": "",
-                    "text": "The custom-designed wordmark."
-                }
-            ]
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": "",
+                "slide5": "",
+                "slide6": "",
+                "slide7": "",
+                "support1": "",
+                "support2": ""
+            },
+            "supportingTexts": {
+                "support1": "Exploratory sketches for Van Dender's brand identity.",
+                "support2": "The custom-designed wordmark."
+            }
         },
-        {
-            "slug": "kuleuven",
-            "hasSpacer200": false,
-            "containerId": "work-section",
-            "triggerClass": "trigger-1",
-            "slideshowId": "leuven-university-section",
-            "brandName": "Leuven University",
+        "kuleuven": {
             "titleSuffix": "Interactive tools for Flanders’ cultural heritage landscape",
             "tags": "Web Design, Data Visualization",
-            "likeId": "project-kuleuven",
-            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
             "description": "As Communication Designer for the KU Leuven, I created interactive data visualizations to analyze cultural heritage organizations, clustering them by discipline and mapping their connections. The work included a printed research dossier with custom typography and graphs, now used by the Flemish government to inform policy and funding decisions.",
-            "caseStudyHref": "./leuven-university/",
             "caseStudyLabel": "View project details",
-            "slides": [
-                {
-                    "activeClass": "active",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_1_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_1.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_2_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_2.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_3_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_3.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_4_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_4.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_5_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_5.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_6_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_6.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_7_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_7.jpg",
-                    "alt": ""
-                }
-            ],
-            "supportingVisuals": [
-                {
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_8_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_8.jpg",
-                    "alt": "",
-                    "text": "The final copy of the research dossier."
-                },
-                {
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_9_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_9.jpg",
-                    "alt": "",
-                    "text": "The custom wordmark."
-                }
-            ]
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": "",
+                "slide5": "",
+                "slide6": "",
+                "slide7": "",
+                "support1": "",
+                "support2": ""
+            },
+            "supportingTexts": {
+                "support1": "The final copy of the research dossier.",
+                "support2": "The custom wordmark."
+            }
         },
-        {
-            "slug": "mino",
-            "hasSpacer200": false,
-            "containerId": "work-section",
-            "triggerClass": "trigger-1",
-            "slideshowId": "mino-section",
-            "brandName": "Mino.",
+        "mino": {
             "titleSuffix": "A culinary time capsule where Armenian and French heritage collide",
             "tags": "Brand Identity, Product Design",
-            "likeId": "project-mino",
-            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
             "description": "Mino is a culinary bridge between Armenia’s smoky hearths and French’ refined tables. They are a brand new high-end dining experience. As such, we designed their brand identity from scratch. The logo combines a script font with clean typography, reflecting the balance of rustic and refined. The visuals draw from Armenian stone carvings and warm, smoky green textures.",
-            "caseStudyHref": "./mino/",
             "caseStudyLabel": "Case study coming soon.",
-            "slides": [
-                {
-                    "activeClass": "active",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_3_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_3.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_2_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_2.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_1_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_1.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_6_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_6.jpg",
-                    "alt": ""
-                }
-            ],
-            "supportingVisuals": [
-                {
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_4_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_4.jpg",
-                    "alt": "",
-                    "text": "The Armenian guardian dog meets his equal, French cuisine."
-                },
-                {
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_5_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_5.jpg",
-                    "alt": "",
-                    "text": "The custom wordmark."
-                }
-            ]
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": "",
+                "support1": "",
+                "support2": ""
+            },
+            "supportingTexts": {
+                "support1": "The Armenian guardian dog meets his equal, French cuisine.",
+                "support2": "The custom wordmark."
+            }
         },
-        {
-            "slug": "verbeek",
-            "hasSpacer200": false,
-            "containerId": "work-section",
-            "triggerClass": "trigger-1",
-            "slideshowId": "verbeek-section",
-            "brandName": "Verbeek",
+        "verbeek": {
             "titleSuffix": "A visual identity for modern craftsmanship",
             "tags": "Brand Identity, Logo Design",
-            "likeId": "project-kuleuven",
-            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
             "description": "For Verbeek Interieur, a carpenter based near Leuven, I developed a visual identity that reflects their dedication to craftsmanship, precision, and modern aesthetics. The result is a timeless design that balances strength and elegance. The visual identity was expanded through a full set of logo variations, a color palette rooted in white and a rich blue, and a detailed brand guide to ensure consistency across print and digital media.",
-            "caseStudyHref": "./verbeek-interieur/",
             "caseStudyLabel": "Visit the case study",
-            "slides": [
-                {
-                    "activeClass": "active",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_6_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_6.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_2_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_2.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_3_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_3.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_7_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_7.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_8_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_8.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_9_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_9.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_5_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_5.jpg",
-                    "alt": ""
-                }
-            ],
-            "supportingVisuals": [
-                {
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_4_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_4.jpg",
-                    "alt": "",
-                    "text": "Exploratory sketches for Verbeek's brand identity."
-                },
-                {
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_10_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_10.jpg",
-                    "alt": "",
-                    "text": "The custom wordmark."
-                }
-            ]
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": "",
+                "slide5": "",
+                "slide6": "",
+                "slide7": "",
+                "support1": "",
+                "support2": ""
+            },
+            "supportingTexts": {
+                "support1": "Exploratory sketches for Verbeek's brand identity.",
+                "support2": "The custom wordmark."
+            }
         },
-        {
-            "slug": "bruxelles-ma-belle",
-            "hasSpacer200": false,
-            "containerId": "work-section",
-            "triggerClass": "trigger-1",
-            "slideshowId": "bruxelles-ma-belle-section",
-            "brandName": "Bruxelles Ma Belle",
+        "bruxelles-ma-belle": {
             "titleSuffix": "Visual identity for a community-driven podcast",
             "tags": "Branding, Digital Design, Typography",
-            "likeId": "project-bruxelles-ma-belle",
-            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
             "description": "As the lead designer, I created a vibrant visual identity for Bruxelles ma belle, a podcast celebrating stories of hope in Brussels. Inspired by the city’s energy, I developed two distinct concepts—one featuring a heart-shaped Brussels map and another with playful typography integrating subtle cross motifs.",
-            "caseStudyHref": "./bruxelles-ma-belle/",
             "caseStudyLabel": "View project details",
-            "slides": [
-                {
-                    "activeClass": "active",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_1_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_1.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_2_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_2.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_3_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_3.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_4_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_4.jpg",
-                    "alt": ""
-                }
-            ]
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": ""
+            },
+            "supportingTexts": {}
         },
-        {
-            "slug": "van-looy",
-            "hasSpacer200": false,
-            "containerId": "work-section",
-            "triggerClass": "trigger-1",
-            "slideshowId": "van-looy-section",
-            "brandName": "Van Looy",
+        "van-looy": {
             "titleSuffix": "Visual identity for a top-tier event and production partner",
             "tags": "Brand identity, Logo design, Typography, Brand assets",
-            "likeId": "project-kuleuven",
-            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
             "description": "Van Looy Productions builds and dismantles large-scale events; from festivals like Tomorrowland, the Ghent Festivities, and Rock Werchter to tour productions for international artists. The challenge: develop an identity that feels both tough and practical, while also professional enough for high-stakes production work and B2B.",
-            "caseStudyHref": "./van-looy/",
             "caseStudyLabel": "Case study coming soon.",
-            "slides": [
-                {
-                    "activeClass": "active",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_1_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_1.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_2_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_2.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_3_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_3.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_4_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_4.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_5_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_5.jpg",
-                    "alt": ""
-                },
-                {
-                    "activeClass": "",
-                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_6_small.jpg",
-                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_6.jpg",
-                    "alt": ""
-                }
-            ]
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": "",
+                "slide5": "",
+                "slide6": ""
+            },
+            "supportingTexts": {}
         }
-    ],
+    },
     "about": {
         "title": "about me",
         "intro1": "I'm a <em>designer</em> with six years of experience in branding, UX and graphic design.",

@@ -1,0 +1,348 @@
+{
+    "projects": [
+        {
+            "slug": "van-dender",
+            "hasSpacer200": true,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "van-dender-section",
+            "brandName": "VAN DENDER",
+            "likeId": "project-vandender",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "caseStudyHref": "./van-dender/",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_1_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_1.jpg",
+                    "altKey": "slide1"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_2.jpg",
+                    "altKey": "slide2"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_3.jpg",
+                    "altKey": "slide3"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_4.jpg",
+                    "altKey": "slide4"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_5_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_5.jpg",
+                    "altKey": "slide5"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_6_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_6.jpg",
+                    "altKey": "slide6"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_7_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_7.jpg",
+                    "altKey": "slide7"
+                }
+            ],
+            "supportingVisuals": [
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_8_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_8.jpg",
+                    "altKey": "support1",
+                    "textKey": "support1"
+                },
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_9_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/van-dender_9.jpg",
+                    "altKey": "support2",
+                    "textKey": "support2"
+                }
+            ]
+        },
+        {
+            "slug": "kuleuven",
+            "hasSpacer200": false,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "leuven-university-section",
+            "brandName": "Leuven University",
+            "likeId": "project-kuleuven",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "caseStudyHref": "./leuven-university/",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_1_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_1.jpg",
+                    "altKey": "slide1"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_2.jpg",
+                    "altKey": "slide2"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_3.jpg",
+                    "altKey": "slide3"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_4.jpg",
+                    "altKey": "slide4"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_5_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_5.jpg",
+                    "altKey": "slide5"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_6_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_6.jpg",
+                    "altKey": "slide6"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_7_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_7.jpg",
+                    "altKey": "slide7"
+                }
+            ],
+            "supportingVisuals": [
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_8_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_8.jpg",
+                    "altKey": "support1",
+                    "textKey": "support1"
+                },
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_9_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/kuleuven_9.jpg",
+                    "altKey": "support2",
+                    "textKey": "support2"
+                }
+            ]
+        },
+        {
+            "slug": "mino",
+            "hasSpacer200": false,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "mino-section",
+            "brandName": "Mino.",
+            "likeId": "project-mino",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "caseStudyHref": "./mino/",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_3.jpg",
+                    "altKey": "slide1"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_2.jpg",
+                    "altKey": "slide2"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_1_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_1.jpg",
+                    "altKey": "slide3"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_6_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_6.jpg",
+                    "altKey": "slide4"
+                }
+            ],
+            "supportingVisuals": [
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_4.jpg",
+                    "altKey": "support1",
+                    "textKey": "support1"
+                },
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_5_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/mino_5.jpg",
+                    "altKey": "support2",
+                    "textKey": "support2"
+                }
+            ]
+        },
+        {
+            "slug": "verbeek",
+            "hasSpacer200": false,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "verbeek-section",
+            "brandName": "Verbeek",
+            "likeId": "project-kuleuven",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "caseStudyHref": "./verbeek-interieur/",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_6_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_6.jpg",
+                    "altKey": "slide1"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_2.jpg",
+                    "altKey": "slide2"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_3.jpg",
+                    "altKey": "slide3"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_7_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_7.jpg",
+                    "altKey": "slide4"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_8_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_8.jpg",
+                    "altKey": "slide5"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_9_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_9.jpg",
+                    "altKey": "slide6"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_5_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_5.jpg",
+                    "altKey": "slide7"
+                }
+            ],
+            "supportingVisuals": [
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_4.jpg",
+                    "altKey": "support1",
+                    "textKey": "support1"
+                },
+                {
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_10_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/verbeek_10.jpg",
+                    "altKey": "support2",
+                    "textKey": "support2"
+                }
+            ]
+        },
+        {
+            "slug": "bruxelles-ma-belle",
+            "hasSpacer200": false,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "bruxelles-ma-belle-section",
+            "brandName": "Bruxelles Ma Belle",
+            "likeId": "project-bruxelles-ma-belle",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "caseStudyHref": "./bruxelles-ma-belle/",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_1_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_1.jpg",
+                    "altKey": "slide1"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_2.jpg",
+                    "altKey": "slide2"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_3.jpg",
+                    "altKey": "slide3"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/bruxelles-ma-belle_4.jpg",
+                    "altKey": "slide4"
+                }
+            ]
+        },
+        {
+            "slug": "van-looy",
+            "hasSpacer200": false,
+            "containerId": "work-section",
+            "triggerClass": "trigger-1",
+            "slideshowId": "van-looy-section",
+            "brandName": "Van Looy",
+            "likeId": "project-kuleuven",
+            "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
+            "caseStudyHref": "./van-looy/",
+            "slides": [
+                {
+                    "activeClass": "active",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_1_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_1.jpg",
+                    "altKey": "slide1"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_2_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_2.jpg",
+                    "altKey": "slide2"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_3_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_3.jpg",
+                    "altKey": "slide3"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_4_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_4.jpg",
+                    "altKey": "slide4"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_5_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_5.jpg",
+                    "altKey": "slide5"
+                },
+                {
+                    "activeClass": "",
+                    "thumbSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_6_small.jpg",
+                    "fullSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/work/vanlooy_6.jpg",
+                    "altKey": "slide6"
+                }
+            ]
+        }
+    ]
+}

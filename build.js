@@ -6,6 +6,8 @@ const SRC_DIR = path.join(ROOT, "src");
 const TEMPLATES_DIR = path.join(SRC_DIR, "templates");
 const PARTIALS_DIR = path.join(SRC_DIR, "partials");
 const I18N_DIR = path.join(ROOT, "i18n");
+const DATA_DIR = path.join(ROOT, "data");
+const PROJECTS_FILE = path.join(DATA_DIR, "projects.json");
 const PUBLIC_DIR = path.join(ROOT, "public");
 const DIST_DIR = path.join(ROOT, "dist");
 
@@ -130,6 +132,48 @@ function loadLanguages() {
         });
 }
 
+function loadSharedProjects() {
+    if (!fs.existsSync(PROJECTS_FILE)) {
+        throw new Error(`Shared projects file not found: ${PROJECTS_FILE}`);
+    }
+
+    const parsed = JSON.parse(fs.readFileSync(PROJECTS_FILE, "utf8"));
+
+    if (!Array.isArray(parsed.projects)) {
+        throw new Error(`Expected "projects" array in ${PROJECTS_FILE}`);
+    }
+
+    return parsed.projects;
+}
+
+function mergeProjects(sharedProjects, translatedProjectsBySlug) {
+    return sharedProjects.map((project) => {
+        const translated = translatedProjectsBySlug?.[project.slug] || {};
+
+        return {
+            ...project,
+
+            titleSuffix: translated.titleSuffix || "",
+            tags: translated.tags || "",
+            description: translated.description || "",
+            caseStudyLabel: translated.caseStudyLabel || "",
+
+            slides: (project.slides || []).map((slide) => ({
+                ...slide,
+                alt: translated.alts?.[slide.altKey] || "",
+            })),
+
+            supportingVisuals: (project.supportingVisuals || []).map(
+                (item) => ({
+                    ...item,
+                    alt: translated.alts?.[item.altKey] || "",
+                    text: translated.supportingTexts?.[item.textKey] || "",
+                }),
+            ),
+        };
+    });
+}
+
 function getPageInfo(templateFile) {
     const pageSlug = path.basename(templateFile, ".html");
 
@@ -206,6 +250,8 @@ function build() {
     copyDir(PUBLIC_DIR, DIST_DIR);
     bundleCSS();
 
+    const sharedProjects = loadSharedProjects();
+
     const languages = loadLanguages();
     const templateFiles = fs
         .readdirSync(TEMPLATES_DIR)
@@ -223,8 +269,11 @@ function build() {
             const templateContent = fs.readFileSync(templatePath, "utf8");
             const { pageSuffix, outputDirName } = getPageInfo(templateFile);
 
+            const mergedProjects = mergeProjects(sharedProjects, data.projects);
+
             const pageData = {
                 ...data,
+                projects: mergedProjects,
                 lang: langCode,
                 langBase,
                 pageSuffix,
