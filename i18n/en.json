@@ -97,14 +97,14 @@
             "hasSpacer200": false,
             "containerId": "work-section",
             "triggerClass": "trigger-1",
-            "slideshowId": "kuleuven-section",
+            "slideshowId": "leuven-university-section",
             "brandName": "Leuven University",
             "titleSuffix": "Interactive tools for Flanders’ cultural heritage landscape",
             "tags": "Web Design, Data Visualization",
             "likeId": "project-kuleuven",
             "likeIconSrc": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/heart_neutral_900.svg",
             "description": "As Communication Designer for the KU Leuven, I created interactive data visualizations to analyze cultural heritage organizations, clustering them by discipline and mapping their connections. The work included a printed research dossier with custom typography and graphs, now used by the Flemish government to inform policy and funding decisions.",
-            "caseStudyHref": "./kuleuven/",
+            "caseStudyHref": "./leuven-university/",
             "caseStudyLabel": "View project details",
             "slides": [
                 {
@@ -603,6 +603,22 @@
             "paragraph15": "Finally, I exported the logo files in various formats, including .ai, .svg, and .png, and organized them into labeled folders for easy access.",
             "paragraph16": "I delivered files in both RGB for digital use and CMYK for print to maintain color fidelity across different applications. The full package included the logo manual, main logo variations, and individual brand marks for Verbeek's future branding needs.",
             "paragraph17": "This project was an great experience, combining modern design with traditional values to create a unique visual identity for Verbeek Interieur that represents their craftsmanship and quality."
+        },
+        "bruxellesMaBelle": {
+            "title": "bruxelles ma belle",
+            "year": "2024",
+            "subtitle1": "the brief",
+            "paragraph1": "I was approached by the Catholic Church of Brussels to design the visual identity for their new podcast series titled: Bruxelles ma belle - verhalen van hoop uit de hoofdstad (Brussels, my beautiful - stories of hope from the capital). The podcast highlights stories of hope taking place in Brussels. The visual design needed to reflect the project's uplifting theme while being adaptable for digital platforms like their website and podcast services.",
+            "paragraph2": "After receiving the brief, I proposed a meeting to discuss their needs in detail. My contact emphasized the urgency of the project, aiming for a launch before Christmas.",
+            "subtitle2": "concept development",
+            "paragraph3": "To develop the visual identity, I began by immersing myself in the city of Brussels, drawing inspiration from its vibrant culture, iconic architecture, and rich color palette. Sketchbook in hand, I explored various neighborhoods, capturing impressions of the city's unique energy and diversity. These initial sketches formed the foundation of my creative exploration.",
+            "paragraph4": "The search for a visual language was guided by the need to balance hopefulness with sophistication. Using Adobe Illustrator, I refined my initial ideas into digital concepts, experimenting with forms, typography, and color schemes. The goal was to create a design that resonated emotionally while being clear and functional. The map of Brussels became a recurring motif, symbolizing connection and community.",
+            "subtitle3": "finished result",
+            "paragraph5": "Following the sketches, I started focussing on two different designs. The first design was a modern, minimalistic approach featuring a white heart shape reflecting the Brussels map. This was paired with bold typography in pink and a gradient background transitioning from yellow to orange. The second design was a dynamic typographic design integrating subtle cross shapes into the negative space. This version conveyed playfulness while maintaining a professional tone. Both designs utilized a friendly typeface and colors inspired by the organization's existing branding, ensuring consistency and freshness.",
+            "subtitle4": "feedback and revisions",
+            "paragraph6": "Following a team review, version 1 was selected. A minor tweak was requested, however, removing a period after the title. The updated design was delivered promptly. Mockups were also provided to demonstrate how the design would look across digital platforms. The deliverables include two initial design concepts, a finalized visual identity for \"Bruxelles ma belle\", and platform-specific mockups optimized for digital use.",
+            "subtitle5": "outcome and reflection",
+            "paragraph7": "The Catholic Church of Brussels was highly satisfied with the final result, describing it as inviting, youthful, and heartfelt. This project demonstrated the value of clear communication, rapid iteration, and aligning design choices with the client's mission. It also reinforced my commitment to using design to make a positive impact."
         }
     }
 }

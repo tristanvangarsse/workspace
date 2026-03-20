@@ -38,26 +38,6 @@
     font-weight: var(--fw-medium);
 }
 
-.about-experience .employer.pink img {
-    filter: invert(45%) sepia(93%) saturate(1022%) hue-rotate(320deg)
-        brightness(88%) contrast(97%); /* changes svg color */
-}
-
-.about-experience .employer.purple img {
-    filter: brightness(0) saturate(100%) invert(26%) sepia(69%) saturate(1339%)
-        hue-rotate(256deg) brightness(94%) contrast(99%);
-}
-
-.about-experience .employer.blue img {
-    filter: brightness(0) saturate(100%) invert(14%) sepia(94%) saturate(1748%)
-        hue-rotate(204deg) brightness(90%) contrast(91%);
-}
-
-.about-experience .employer.yellow img {
-    filter: brightness(0) saturate(100%) invert(87%) sepia(10%) saturate(7480%)
-        hue-rotate(360deg) brightness(102%) contrast(104%);
-}
-
 .about-experience .employer.pink * {
     color: #dd555e;
 }
