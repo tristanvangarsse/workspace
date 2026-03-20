@@ -1,0 +1,298 @@
+{
+    "lang": "nl",
+    "site": {
+        "name": "Tristan Van Garsse",
+        "baseUrl": ""
+    },
+    "nav": {
+        "work": "Werk",
+        "about": "Over",
+        "artifacts": "Artefacten",
+        "contact": "Contact"
+    },
+    "contactInfo": {
+        "email": "vangarsse.tristan@gmail.com",
+        "telephone": "+32(0)4831 46818"
+    },
+    "landingPage": {
+        "descriptionStatic": "Ik ben een ontwerper met 6 jaar ervaring in creatieve strategie, merken, culturele codes, javascript, semiotiek, kleur, gestalt, artificiële intelligentie, kunstgeschiedenis, python, kritisch design, copywriting, rastersystemen, symboliek, modulair ontwerp",
+        "descriptionDynamic": "Ik&nbsp;ben&nbsp;een&nbsp;ontwerper&nbsp;met|6&nbsp;jaar&nbsp;ervaring&nbsp;in|creatieve&nbsp;strategie,&nbsp;merken,|culturele&nbsp;codes,&nbsp;coderen|semiotiek,&nbsp;kleur,&nbsp;gestalt,|artificiële&nbsp;intelligentie,|kunstgeschiedenis,&nbsp;kritisch&nbsp;design,|copywriting,&nbsp;rastersystemen|symboliek,&nbsp;modulair&nbsp;ontwerp"
+    },
+    "projects": {
+        "van-dender": {
+            "titleSuffix": "Goddelijke traditie, heruitgevonden",
+            "tags": "Rebranding, Merkidentiteit, Digitale strategie",
+            "description": "Van Dender is een traditionele chocolatier, heruitgevonden voor een nieuwe generatie. We vervingen het verouderde logo door een custom woordmerk, verfijnden het kleurenpalet naar diepe cacao- en gedempte bordeauxtinten, en tekenden het wapenschild opnieuw voor digitaal en drukwerk. De identiteit combineert traditie met moderne helderheid: minimalistisch, elegant en ontworpen voor zowel schap als scherm.",
+            "caseStudyLabel": "Bekijk de case study",
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": "",
+                "slide5": "",
+                "slide6": "",
+                "slide7": "",
+                "support1": "",
+                "support2": ""
+            },
+            "supportingTexts": {
+                "support1": "Verkennende schetsen voor de merkidentiteit van Van Dender.",
+                "support2": "Het op maat ontworpen woordmerk."
+            }
+        },
+        "kuleuven": {
+            "titleSuffix": "Interactieve tools voor het Vlaamse erfgoedlandschap",
+            "tags": "Webdesign, Datavisualisatie",
+            "description": "Als Communication Designer voor KU Leuven creëerde ik interactieve datavisualisaties om erfgoedorganisaties te analyseren, ze te clusteren per discipline en hun onderlinge verbanden in kaart te brengen. Het werk omvatte ook een gedrukt onderzoeksdossier met aangepaste typografie en grafieken, dat nu door de Vlaamse overheid wordt gebruikt voor beleids- en subsidiebeslissingen.",
+            "caseStudyLabel": "Bekijk projectdetails",
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": "",
+                "slide5": "",
+                "slide6": "",
+                "slide7": "",
+                "support1": "",
+                "support2": ""
+            },
+            "supportingTexts": {
+                "support1": "De finale versie van het onderzoeksdossier.",
+                "support2": "Het op maat ontworpen woordmerk."
+            }
+        },
+        "mino": {
+            "titleSuffix": "Een culinaire tijdcapsule waar Armeense en Franse tradities samenkomen",
+            "tags": "Merkidentiteit, Productdesign",
+            "description": "Mino is een culinaire brug tussen de rokerige haarden van Armenië en de verfijnde Franse tafels. Het is een volledig nieuwe high-end eetervaring. Daarom ontwierpen we hun merkidentiteit vanaf nul. Het logo combineert een scriptlettertype met strakke typografie, als weerspiegeling van de balans tussen rustiek en verfijnd. De visuele stijl is geïnspireerd op Armeense steenhouwwerken en warme, rokerige groentinten.",
+            "caseStudyLabel": "Case study binnenkort beschikbaar.",
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": "",
+                "support1": "",
+                "support2": ""
+            },
+            "supportingTexts": {
+                "support1": "De Armeense waakhond ontmoet zijn gelijke: de Franse keuken.",
+                "support2": "Het op maat ontworpen woordmerk."
+            }
+        },
+        "verbeek": {
+            "titleSuffix": "Een visuele identiteit voor modern vakmanschap",
+            "tags": "Merkidentiteit, Logo-ontwerp",
+            "description": "Voor Verbeek Interieur, een schrijnwerker uit de regio Leuven, ontwikkelde ik een visuele identiteit die hun toewijding aan vakmanschap, precisie en moderne esthetiek weerspiegelt. Het resultaat is een tijdloos ontwerp dat kracht en elegantie in balans brengt. De visuele identiteit werd uitgebreid met een volledige set logovariaties, een kleurenpalet gebaseerd op wit en een rijk blauw, en een gedetailleerde brand guide om consistentie te garanderen in zowel drukwerk als digitale media.",
+            "caseStudyLabel": "Bekijk de case study",
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": "",
+                "slide5": "",
+                "slide6": "",
+                "slide7": "",
+                "support1": "",
+                "support2": ""
+            },
+            "supportingTexts": {
+                "support1": "Verkennende schetsen voor de merkidentiteit van Verbeek.",
+                "support2": "Het op maat ontworpen woordmerk."
+            }
+        },
+        "bruxelles-ma-belle": {
+            "titleSuffix": "Visuele identiteit voor een communitygedreven podcast",
+            "tags": "Branding, Digitaal ontwerp, Typografie",
+            "description": "Als lead designer creëerde ik een levendige visuele identiteit voor Bruxelles ma belle, een podcast die verhalen van hoop in Brussel viert. Geïnspireerd door de energie van de stad ontwikkelde ik twee verschillende concepten—één met een hartvormige kaart van Brussel en een ander met speelse typografie waarin subtiele kruisvormige motieven zijn verwerkt.",
+            "caseStudyLabel": "Bekijk projectdetails",
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": ""
+            },
+            "supportingTexts": {}
+        },
+        "van-looy": {
+            "titleSuffix": "Visuele identiteit voor een topklasse event- en productiepartner",
+            "tags": "Merkidentiteit, Logo-ontwerp, Typografie, Brand assets",
+            "description": "Van Looy Productions bouwt en ontmantelt grootschalige evenementen; van festivals zoals Tomorrowland, de Gentse Feesten en Rock Werchter tot tourproducties voor internationale artiesten. De uitdaging: een identiteit ontwikkelen die zowel robuust en praktisch aanvoelt, als professioneel genoeg is voor high-end productiewerk en B2B.",
+            "caseStudyLabel": "Case study binnenkort beschikbaar.",
+            "alts": {
+                "slide1": "",
+                "slide2": "",
+                "slide3": "",
+                "slide4": "",
+                "slide5": "",
+                "slide6": ""
+            },
+            "supportingTexts": {}
+        }
+    },
+    "about": {
+        "title": "over mij",
+        "intro1": "Ik ben een <em>ontwerper</em> met zes jaar ervaring in branding, UX en grafisch ontwerp.",
+        "intro2": "Met een master in <em>Media en Informatieontwerp</em> ben ik up-to-date met moderne industrienormen en state&#x2011;of&#x2011;the&#x2011;art communicatiemiddelen.",
+        "intro3": "Mijn passie voor <em>onberispelijk design</em> en creatief probleemoplossen geeft me een unieke kijk op hedendaagse vraagstukken.",
+        "gaia": {
+            "employer": "GAIA",
+            "role": "Communicatiespecialist",
+            "period": "aug. 2025 - mrt. 2026",
+            "location": "Brussel",
+            "description1": "Verantwoordelijk voor het ontwikkelen en implementeren van communicatie- en marketingstrategieën, met focus op impactvolle campagnes.",
+            "description2": "Gemiddeld 8 campagnes en 40 ontwerpen per kwartaal, waaronder drukwerk en corporate identity-assets.",
+            "description3": "Analyseren van marketingresultaten en vertalen van inzichten naar creatieve concepten die de zichtbaarheid en merkherkenning van GAIA versterkten.",
+            "description4": "Combineren van strategisch denken met sterk visueel ontwerp om de effectiviteit van campagnes te maximaliseren."
+        },
+        "freelance2": {
+            "employer": "Freelance",
+            "role": "Brand Designer",
+            "period": "feb. 2020 - jul. 2025",
+            "location": "Brussel",
+            "description": "Ik creëerde visuele content voor meer dan 20 klanten, waaronder logo’s, brochures en websites die de merkherkenning en betrokkenheid versterkten. Ik gaf strategisch merkadvies en digitale oplossingen, wat voor één klant leidde tot een stijging van 85% in klantbetrokkenheid via geoptimaliseerde digitale marketing."
+        },
+        "kuleuven": {
+            "employer": "KU Leuven",
+            "role": "Communication Designer",
+            "period": "mei 2023 - jan. 2025",
+            "location": "Leuven",
+            "description": "Ik werkte samen met de afdeling Cultuurwetenschappen aan uitgebreide onderzoeksdossiers rond artistiek erfgoed. Daarnaast ontwikkelde ik webgebaseerde datavisualisaties met front-end technologieën voor een heldere en gebruiksvriendelijke UI/UX. In opdracht van de Vlaamse overheid droeg ik bij aan belangrijke beleidsbeslissingen."
+        },
+        "vanmoof": {
+            "employer": "VanMoof",
+            "role": "Product Designer",
+            "period": "nov. 2022 - apr. 2023",
+            "location": "Amsterdam",
+            "description": "Tijdens mijn stage van 6 maanden werkte ik aan het verbeteren van e-bike ontwerpen via prototyping en 3D-modellering. Ik hielp bij het testen van componenten zoals motoren en batterijen en droeg bij aan het ergonomischer maken van de frames. Ik werkte mee aan 3 functionerende prototypes die gebruikt werden in de ontwikkeling van nieuwe fietsmodellen."
+        },
+        "freelance1": {
+            "employer": "Freelance",
+            "role": "Grafisch ontwerper",
+            "period": "nov. 2020 - okt. 2022",
+            "location": "Brussel",
+            "description": "Ik werkte aan meer dan 30 projecten voor kleine bedrijven en start-ups, waarbij ik visuele identiteiten en campagnemateriaal ontwikkelde die merkzichtbaarheid en communicatie versterkten. Ik beheerde zelfstandig klantrelaties, projectplanning, revisies en oplevering, en zorgde zo voor efficiënte samenwerking en kwalitatieve resultaten."
+        },
+        "intro4": "Gevestigd in <em>❦ Brussel</em>, heb ik gewerkt aan uiteenlopende designprojecten, zowel als freelancer als in samenwerking met klanten uit verschillende disciplines.",
+        "intro5": "Mijn achtergrond omvat het creëren van impactvolle visuele en digitale content, strategisch merkadvies en het leveren van gebruiksgerichte designoplossingen.",
+        "intro6": "Buiten het werk geniet ik ervan de stad te verkennen en me onder te dompelen in creatieve bezigheden."
+    },
+    "skills": {
+        "title": "vaardigheden & expertise",
+        "card1": {
+            "title": "Designstrategie",
+            "description1": "Ik werk samen met klanten om een duidelijke visie voor hun merk en projecten te ontwikkelen.",
+            "description2": "Door doelen vroeg af te stemmen, leg ik de basis voor krachtige, strategisch onderbouwde ontwerpen die resoneren met het publiek."
+        },
+        "card2": {
+            "title": "Kernwaarden",
+            "description1": "Teamspeler",
+            "description2": "Geen solo-act.",
+            "description3": "Analytisch creatief",
+            "description4": "Geen decoratieve ruis. Elk ontwerp moet een probleem oplossen. Punt.",
+            "description5": "Doelgericht",
+            "description6": "Ik begin met ‘waarom’ en zorg dat elk detail bijdraagt aan het einddoel.",
+            "description7": "Innovatief en origineel",
+            "description8": "Ik ga diep om brede maatschappelijke impact te creëren.",
+            "description9": "Helikopterperspectief",
+            "description10": "Geen tunnelvisie. Past onze aanpak binnen de strategie, de markt en de toekomst?",
+            "description11": "Duurzaam",
+            "description12": "Mooi is niet genoeg. Het moet ook verantwoord zijn. Denk aan materialen, levensduur en impact."
+        },
+        "card3": {
+            "title": "Vaardigheden",
+            "description1": "Design",
+            "description2": "Illustrator, Photoshop, InDesign, After Effects",
+            "description3": "3D & prototyping",
+            "description4": "Figma, Protopie, Cinema4D, Unreal Engine, Spline, Rive",
+            "description5": "Expertise",
+            "description6": "UI/UX-design, Branding & identiteit, 3D-design, Motion graphics",
+            "description7": "Coderen",
+            "description8": "HTML, CSS, JavaScript, Python"
+        },
+        "card4": {
+            "title": "Talen",
+            "description1": "Moedertaal:",
+            "description2": "Nederlands & Frans",
+            "description3": "Vloeiend:",
+            "description4": "Engels"
+        }
+    },
+    "articles": {
+        "title": "artikelen & essays",
+        "link": "Lees artikel",
+        "card1": {
+            "title": "Think different",
+            "description": "Design als systemen in plaats van outputs."
+        },
+        "card2": {
+            "title": "Datastories",
+            "description": "Een datatool voor verkeersveiligheid."
+        },
+        "card3": {
+            "title": "Flags of Tomorrow",
+            "description": "Mijn masterproef over vexillografie."
+        },
+        "card4": {
+            "title": "Out of sight",
+            "description": "Mijn bachelorproef over tactiel design."
+        },
+        "card5": {
+            "title": "Look Up",
+            "description": "Een generatieve timelapse van de lucht."
+        }
+    },
+    "artifacts": {
+        "title": "artefacten uit het archief",
+        "card7": {
+            "description": "Een interpretatie van een boekcover voor Dear Data van Giorgia Lupi en Stefanie Posavec, met een abstracte datavisualisatie die ik maakte."
+        },
+        "card6": {
+            "description": "Een datavisualisatie die ik maakte om Zwitserse designprincipes en rasterstructuren te verkennen."
+        },
+        "card5": {
+            "description": "Een poster voor een fictieve galerietentoonstelling, geïnspireerd op Ukiyo-e houtsneden."
+        },
+        "card4": {
+            "description": "Een boekcover die ik ontwierp voor Black Holes van Brian Cox en Jeff Forshaw."
+        },
+        "card3": {
+            "description": "Een mailer ontworpen om de aandacht te trekken van een veeleisend publiek, met een verfijnde uitstraling."
+        },
+        "card2": {
+            "description": "Af en toe maak ik een tekening. Het lijkt mensen blij te maken.",
+            "link": "Bekijk meer"
+        },
+        "card1": {
+            "description": "Een albumcover die ik samenstelde, waarbij ik de sfeer van de muziek probeerde te vertalen naar beeld."
+        }
+    },
+    "footer": {
+        "title": "Laten we praten over design en ideeën—wie weet waar het toe leidt?",
+        "contact": "Neem contact op",
+        "copyright": "© 2026. Gemaakt door mij.",
+        "reservation": "Alle rechten voorbehouden."
+    },
+    "caseStudy": {
+        "vanDender": {
+            "title": "van dender",
+            "year": "2026",
+            "subtitle1": "de klant",
+            "paragraph1": "Sommige merken hebben geen heruitvinding nodig. Ze moeten terugkeren naar hun kern. Van Dender was zo’n geval. Het huis droeg al gewicht: erfgoed, vakmanschap, herkenning en een typisch Belgische mix van ernst en verfijning.",
+            "paragraph2": "Maar de identiteit was beginnen afdrijven. Het logo voelde gedateerd. De visuele taal was inconsistent. Sommige elementen werkten nog op verpakkingen of in de winkel, maar verloren hun kracht online, op een klein scherm of naast scherpere, hedendaagse concurrenten.",
+            "paragraph3": "Daar begon het werk. Niet met disruptie, maar met verfijning.",
+            "subtitle2": "identiteit",
+            "paragraph4": "In samenwerking met het team herwerkte ik de identiteit rond wat al klopte: hun uitgesproken erfgoed. Een stille zelfzekerheid die geen opsmuk nodig had. Het oude logo werd vervangen door een custom woordmerk dat preciezer en evenwichtiger aanvoelt, met behoud van een klassiek ritme. Niet nostalgisch. Niet kil. Gewoon helderder, sterker, beter in balans.",
+            "subtitle3": "kleur",
+            "paragraph5": "Ook het kleurenpalet moest evolueren. We wilden geen generieke of overdreven decoratieve tinten, en doken daarom in 19e-eeuwse kleurensymboliek. Dat leidde tot een rijke combinatie van diepe cacao en gedempt bordeaux, ondersteund door neutrale tinten, wat zorgde voor meer diepte en consistentie over print, verpakking en digitaal gebruik.",
+            "subtitle4": "inzicht",
+            "paragraph6": "Een inzicht bleef hangen: luxe kwam hier niet van toevoegen, maar van weten wat je moet weglaten. Dat bepaalde de richting van het werk.",
+            "subtitle5": "details",
+            "paragraph7": "Er was ook een licht absurd moment tijdens het proces: we vergeleken het woordmerk extreem ingezoomd en discussieerden serieus over lijndiktes, tot iemand zei dat het ‘te aristocratisch’ aanvoelde.",
+            "paragraph8": "Toch was net die precisie de essentie.",
+            "subtitle6": "resultaat",
+            "paragraph9": "De uiteindelijke identiteit geeft Van Dender een heldere en duurzame basis: een custom woordmerk, een verfijnd palet en een consistent systeem over alle toepassingen.",
+            "paragraph10": "De traditie was er al.",
+            "paragraph11": "Mijn rol was om ze opnieuw zichtbaar te maken."
+        }
+    }
+}
