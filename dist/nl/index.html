@@ -134,7 +134,7 @@ Design and code by Tristan Van Garsse
 
     <body id="body-anchor">
         <header class="header" id="header">
-    <a draggable="false" class="wordmark-link">
+    <a draggable="false" class="wordmark-link" href="/">
         <img
             draggable="false"
             class="logomark"
@@ -148,22 +148,55 @@ Design and code by Tristan Van Garsse
             alt="Tristan Van Garsse"
         />
     </a>
+
     <nav>
         <a draggable="false" href="#work-section">Werk</a>
         <a draggable="false" href="#about-section">Over</a>
         <a draggable="false" href="#artifacts-section">Artefacten</a>
         <a draggable="false" href="#contact-section">Contact</a>
-        <a
-            draggable="false"
-            href="../nl/"
-            hreflang="nl"
-            onclick="localStorage.setItem('preferredLanguage', 'nl')"
-            >NL<img
-                draggable="false"
-                class="lang-arrow"
-                src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/arrow-right-v2-accent.svg"
-                alt=""
-        /></a>
+        <div class="language-switcher">
+            <button
+                type="button"
+                class="language-toggle"
+                aria-expanded="false"
+                aria-label="Select language"
+            >
+                <img
+                    src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe.svg"
+                    alt=""
+                />
+            </button>
+
+            <div class="language-menu">
+                <a
+                    draggable="false"
+                    href="../en/"
+                    hreflang="en"
+                    lang="en"
+                    onclick="localStorage.setItem('preferredLanguage', 'en')"
+                >
+                    English
+                </a>
+                <a
+                    draggable="false"
+                    href="../nl/"
+                    hreflang="nl"
+                    lang="nl"
+                    onclick="localStorage.setItem('preferredLanguage', 'nl')"
+                >
+                    Nederlands
+                </a>
+                <a
+                    draggable="false"
+                    href="../fr/"
+                    hreflang="fr"
+                    lang="fr"
+                    onclick="localStorage.setItem('preferredLanguage', 'fr')"
+                >
+                    Français
+                </a>
+            </div>
+        </div>
     </nav>
 </header>
  <!-- page loader BLANK -->
@@ -1864,6 +1897,9 @@ Design and code by Tristan Van Garsse
 
 <!-- Like counter -->
 <script src="/js/like-counters.js"></script>
+
+<!-- Header language switcher -->
+<script src="/js/language-switcher.js"></script>
 
     </body>
 </html>

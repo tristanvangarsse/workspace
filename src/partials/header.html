@@ -1,5 +1,5 @@
 <header class="header" id="header">
-    <a draggable="false" class="wordmark-link">
+    <a draggable="false" class="wordmark-link" href="/">
         <img
             draggable="false"
             class="logomark"
@@ -13,21 +13,54 @@
             alt="Tristan Van Garsse"
         />
     </a>
+
     <nav>
         <a draggable="false" href="#work-section">{{nav.work}}</a>
         <a draggable="false" href="#about-section">{{nav.about}}</a>
         <a draggable="false" href="#artifacts-section">{{nav.artifacts}}</a>
         <a draggable="false" href="#contact-section">{{nav.contact}}</a>
-        <a
-            draggable="false"
-            href="../nl/"
-            hreflang="nl"
-            onclick="localStorage.setItem('preferredLanguage', 'nl')"
-            >NL<img
-                draggable="false"
-                class="lang-arrow"
-                src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/arrow-right-v2-accent.svg"
-                alt=""
-        /></a>
+        <div class="language-switcher">
+            <button
+                type="button"
+                class="language-toggle"
+                aria-expanded="false"
+                aria-label="Select language"
+            >
+                <img
+                    src="https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/globe.svg"
+                    alt=""
+                />
+            </button>
+
+            <div class="language-menu">
+                <a
+                    draggable="false"
+                    href="../en/"
+                    hreflang="en"
+                    lang="en"
+                    onclick="localStorage.setItem('preferredLanguage', 'en')"
+                >
+                    English
+                </a>
+                <a
+                    draggable="false"
+                    href="../nl/"
+                    hreflang="nl"
+                    lang="nl"
+                    onclick="localStorage.setItem('preferredLanguage', 'nl')"
+                >
+                    Nederlands
+                </a>
+                <a
+                    draggable="false"
+                    href="../fr/"
+                    hreflang="fr"
+                    lang="fr"
+                    onclick="localStorage.setItem('preferredLanguage', 'fr')"
+                >
+                    Français
+                </a>
+            </div>
+        </div>
     </nav>
 </header>
