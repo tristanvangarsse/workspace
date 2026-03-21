@@ -93,14 +93,18 @@
 }
 
 .about-profile {
-    margin: 100px 50px 100px 50px;
+    margin: 100px 50px;
     display: flex;
     justify-content: center;
 }
 
 .about-profile .profile-picture {
-    max-width: 400px;
+    display: block;
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
     border-radius: 49%;
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 600px) {
