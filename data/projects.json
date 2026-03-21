@@ -369,18 +369,18 @@
         "videoId": "power-saver",
         "likeId": "artefact-mailer",
         "descriptionKey": "artifacts.card3.description",
-        "poster": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/thumbnails/d3g5_thumbnail.jpg",
+        "poster": "https://assets.vangarsse.com/image/thumbnails/d3g5_thumbnail.jpg",
         "sources": [
             {
-            "src": "https://file.garden/Z8RSCvtUnnZ9Xeo8/video/d3g5_av1.webm",
+            "src": "https://assets.vangarsse.com/video/d3g5_av1.webm",
             "type": "video/webm; codecs=av01.0.05M.08"
             },
             {
-            "src": "https://file.garden/Z8RSCvtUnnZ9Xeo8/video/d3g5_vp9.webm",
+            "src": "https://assets.vangarsse.com/video/d3g5_vp9.webm",
             "type": "video/webm"
             },
             {
-            "src": "https://file.garden/Z8RSCvtUnnZ9Xeo8/video/d3g5_h264.mp4",
+            "src": "https://assets.vangarsse.com/video/d3g5_h264.mp4",
             "type": "video/mp4"
             }
         ]
