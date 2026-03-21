@@ -85,11 +85,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-image: url("https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/arrow-up-right-neutral-100.svg");
+    background-image: url("https://assets.vangarsse.com/image/svg/arrow-up-right-neutral-100.svg");
 }
 
 .disabled .button-link-arrow {
-    background-image: url("https://file.garden/Z8RSCvtUnnZ9Xeo8/image/svg/arrow-up-right-neutral-600.svg");
+    background-image: url("https://assets.vangarsse.com/image/svg/arrow-up-right-neutral-600.svg");
 }
 
 .button-link.disabled {
