@@ -338,5 +338,66 @@
                 }
             ]
         }
+    ],
+    "artifacts": [
+        {
+        "type": "image",
+        "slug": "dear-data-book",
+        "likeId": "artefact-dear-data-book",
+        "descriptionKey": "artifacts.card7.description"
+        },
+        {
+        "type": "image",
+        "slug": "global-ocean-temperature-anomalies-poster",
+        "likeId": "artefact-global-ocean-temperature-anomalies-poster",
+        "descriptionKey": "artifacts.card6.description"
+        },
+        {
+        "type": "image",
+        "slug": "futurismo-poster",
+        "likeId": "artefact-futurismo-poster",
+        "descriptionKey": "artifacts.card5.description"
+        },
+        {
+        "type": "image",
+        "slug": "black-holes-book",
+        "likeId": "artefact-black-holes-book",
+        "descriptionKey": "artifacts.card4.description"
+        },
+        {
+        "type": "video",
+        "videoId": "power-saver",
+        "likeId": "artefact-mailer",
+        "descriptionKey": "artifacts.card3.description",
+        "poster": "https://file.garden/Z8RSCvtUnnZ9Xeo8/image/thumbnails/d3g5_thumbnail.jpg",
+        "sources": [
+            {
+            "src": "https://file.garden/Z8RSCvtUnnZ9Xeo8/video/d3g5_av1.webm",
+            "type": "video/webm; codecs=av01.0.05M.08"
+            },
+            {
+            "src": "https://file.garden/Z8RSCvtUnnZ9Xeo8/video/d3g5_vp9.webm",
+            "type": "video/webm"
+            },
+            {
+            "src": "https://file.garden/Z8RSCvtUnnZ9Xeo8/video/d3g5_h264.mp4",
+            "type": "video/mp4"
+            }
+        ]
+        },
+        {
+        "type": "image",
+        "slug": "sanguine-body-drawing",
+        "likeId": "artefact-sanguine-body-drawing",
+        "descriptionKey": "artifacts.card2.description",
+        "linkHref": "https://sanguine.vangarsse.com",
+        "linkLabelKey": "artifacts.card2.link"
+        },
+        {
+        "type": "image",
+        "slug": "realm-of-dreams-cover",
+        "likeId": "artefact-realm-of-dreams-cover",
+        "descriptionKey": "artifacts.card1.description"
+        }
     ]
 }

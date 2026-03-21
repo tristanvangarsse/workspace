@@ -132,9 +132,9 @@ function loadLanguages() {
         });
 }
 
-function loadSharedProjects() {
+function loadSharedData() {
     if (!fs.existsSync(PROJECTS_FILE)) {
-        throw new Error(`Shared projects file not found: ${PROJECTS_FILE}`);
+        throw new Error(`Shared data file not found: ${PROJECTS_FILE}`);
     }
 
     const parsed = JSON.parse(fs.readFileSync(PROJECTS_FILE, "utf8"));
@@ -143,7 +143,11 @@ function loadSharedProjects() {
         throw new Error(`Expected "projects" array in ${PROJECTS_FILE}`);
     }
 
-    return parsed.projects;
+    if (!Array.isArray(parsed.artifacts)) {
+        throw new Error(`Expected "artifacts" array in ${PROJECTS_FILE}`);
+    }
+
+    return parsed;
 }
 
 function mergeProjects(sharedProjects, translatedProjectsBySlug) {
@@ -172,6 +176,63 @@ function mergeProjects(sharedProjects, translatedProjectsBySlug) {
                 }),
             ),
         };
+    });
+}
+
+function buildArtifactImageUrls(slug) {
+    const base = `https://assets.vangarsse.com/image/artifacts/${slug}`;
+
+    return {
+        thumbSrc: `${base}/small/1-front.jpg`,
+        fullSrc: `${base}/full/1-front.jpg`,
+    };
+}
+
+function mergeArtifacts(sharedArtifacts, pageData) {
+    return sharedArtifacts.map((artifact) => {
+        const description = artifact.descriptionKey
+            ? getNestedValue(pageData, artifact.descriptionKey) || ""
+            : "";
+
+        const linkLabel = artifact.linkLabelKey
+            ? getNestedValue(pageData, artifact.linkLabelKey) || ""
+            : "";
+
+        if (artifact.type === "image") {
+            const { thumbSrc, fullSrc } = buildArtifactImageUrls(artifact.slug);
+
+            return {
+                ...artifact,
+                isImage: true,
+                isVideo: false,
+                thumbSrc,
+                fullSrc,
+                alt: artifact.alt || "",
+                description,
+                linkLabel,
+                videoSources: "",
+            };
+        }
+
+        if (artifact.type === "video") {
+            const videoSources = (artifact.sources || [])
+                .map(
+                    (source) =>
+                        `<source src="${source.src}" type="${source.type}" />`,
+                )
+                .join("\n");
+
+            return {
+                ...artifact,
+                isImage: false,
+                isVideo: true,
+                description,
+                linkLabel,
+                videoSources,
+            };
+        }
+
+        return artifact;
     });
 }
 
@@ -251,7 +312,9 @@ function build() {
     copyDir(PUBLIC_DIR, DIST_DIR);
     bundleCSS();
 
-    const sharedProjects = loadSharedProjects();
+    const sharedData = loadSharedData();
+    const sharedProjects = sharedData.projects;
+    const sharedArtifacts = sharedData.artifacts;
 
     const languages = loadLanguages();
     const templateFiles = fs
@@ -271,10 +334,12 @@ function build() {
             const { pageSuffix, outputDirName } = getPageInfo(templateFile);
 
             const mergedProjects = mergeProjects(sharedProjects, data.projects);
+            const mergedArtifacts = mergeArtifacts(sharedArtifacts, data);
 
             const pageData = {
                 ...data,
                 projects: mergedProjects,
+                artifactsList: mergedArtifacts,
                 lang: langCode,
                 langBase,
                 pageSuffix,
